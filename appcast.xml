@@ -3,6 +3,15 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>1.1.2</title>
+            <pubDate>Wed, 02 Sep 2026 18:01:57 +0300</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.1.2.dmg" length="15988180" type="application/octet-stream" sparkle:edSignature="UoxClc7KOJElD+9GhqZBjXm3OysUZYg/OaUrGGVbZ4Mq4BvahXnhr7DBuKaLQBOD+7PeKcmREfgqg5/WXl8FAw=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Wed, 02 Sep 2026 17:57:58 +0300</pubDate>
             <sparkle:version>3</sparkle:version>
