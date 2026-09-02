@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ahoy</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Wed, 02 Sep 2026 17:55:58 +0300</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.1.0.dmg" length="15991355" type="application/octet-stream" sparkle:edSignature="7UhvMUVQNUPhOiDEwAlItFgHdh8RClaurCOYSHGlsV1QdH+b+3v75hM4bOYXWmngkfj5tKPf5HRUNlEsUmy5DQ=="/>
+        </item>
+    </channel>
+</rss>
