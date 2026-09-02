@@ -11,23 +11,5 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.1.2.dmg" length="15988180" type="application/octet-stream" sparkle:edSignature="UoxClc7KOJElD+9GhqZBjXm3OysUZYg/OaUrGGVbZ4Mq4BvahXnhr7DBuKaLQBOD+7PeKcmREfgqg5/WXl8FAw=="/>
         </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Wed, 02 Sep 2026 17:57:58 +0300</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.1.1.dmg" length="15991374" type="application/octet-stream" sparkle:edSignature="tEMiI6latdqBHv0XemRuK/90HhZtK1A3bvkhlfzo8icIx3ZvUFpUxczebCORKPHS9h6w0Mfdo1OU6jyhtrxiCQ=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Wed, 02 Sep 2026 17:55:58 +0300</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.1.0.dmg" length="15991355" type="application/octet-stream" sparkle:edSignature="7UhvMUVQNUPhOiDEwAlItFgHdh8RClaurCOYSHGlsV1QdH+b+3v75hM4bOYXWmngkfj5tKPf5HRUNlEsUmy5DQ=="/>
-        </item>
     </channel>
 </rss>
