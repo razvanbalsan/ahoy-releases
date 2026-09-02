@@ -3,6 +3,15 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>1.6.2</title>
+            <pubDate>Wed, 02 Sep 2026 22:58:51 +0300</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.6.2.dmg" length="16175133" type="application/octet-stream" sparkle:edSignature="e3f6um18DhjfNFzy+9QGHSwJeLVwg78Y2UtECP5/JV8efdX5VWDhg80Gp9IqxVqJWUpgfRQLoMBJWvPRVdfkBA=="/>
+        </item>
+        <item>
             <title>1.6.1</title>
             <pubDate>Wed, 02 Sep 2026 22:49:02 +0300</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.6.0.dmg" length="16174774" type="application/octet-stream" sparkle:edSignature="udgotc5lSP6l/IJs0tP7bcIJ+Pj5hO4f8O/o8eGmoAJkIMTWlIbQZe+CKttc4nJe/ZJoPd/89j3nJFKpYcWwDA=="/>
-        </item>
-        <item>
-            <title>1.5.0</title>
-            <pubDate>Wed, 02 Sep 2026 22:10:31 +0300</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-1.5.0.dmg" length="16165156" type="application/octet-stream" sparkle:edSignature="4ULtE7lmKDGvZE5atA3tdZP7zsU0n+i4GX97zc9VlaVpW4ZfeowoYCI4xJ6zmNvkJ7AuDsDxCc5TpnaPmwc+BQ=="/>
         </item>
     </channel>
 </rss>
