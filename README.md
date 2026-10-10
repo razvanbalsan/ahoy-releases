@@ -24,6 +24,26 @@ or OpenAI.
 On first use Ahoy will ask for Microphone and System Audio Recording
 permissions — both are needed to transcribe calls.
 
+## Transcription engines
+
+**On this Mac (local):** nothing leaves your Mac. Download a model once
+under **Settings → Transcription → Local models**.
+- **Parakeet TDT v3:** 25 European languages, fastest.
+- **Whisper large-v3-turbo:** 99 languages, most accurate, slower.
+
+**Online:** needs an API key under **Settings → API Keys**; you pay the
+service directly.
+- **Gemini:** transcription, live captions and call summaries.
+- **Soniox, AssemblyAI, ElevenLabs, OpenAI:** transcription after the
+  call and live captions.
+- **Both:** a local draft reviewed by Gemini. Needs a local model and a
+  Gemini key.
+
+## What's new in 2.0.2
+
+- A call's **Transcribe** menu lists an online engine only once its API
+  key is saved.
+
 ## What's new in 2.0.1
 
 - **ElevenLabs fixes:**
