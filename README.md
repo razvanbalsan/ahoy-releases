@@ -24,6 +24,15 @@ or OpenAI.
 On first use Ahoy will ask for Microphone and System Audio Recording
 permissions — both are needed to transcribe calls.
 
+## What's new in 2.0.1
+
+- **ElevenLabs fixes:**
+  - Ahoy now makes sure ElevenLabs' copy of the transcript is really
+    deleted.
+  - **Test Connection** succeeds with a working key.
+  - A key used with the wrong region now says to check the key and its
+    region.
+
 ## What's new in 2.0.0
 
 - **Four more transcription services: Soniox, AssemblyAI, ElevenLabs and
