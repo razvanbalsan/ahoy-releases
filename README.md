@@ -39,6 +39,12 @@ service directly.
 - **Both:** a local draft reviewed by Gemini. Needs a local model and a
   Gemini key.
 
+## What's new in 2.0.4
+
+- On the **Dashboard**, the stats and the **Ask** and **Action items**
+  tiles stay in place while you scroll through your calls. In a very
+  short window everything scrolls together.
+
 ## What's new in 2.0.3
 
 - The engine lists in a call's **Transcribe** menu and in **Settings →
