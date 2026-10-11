@@ -39,6 +39,13 @@ service directly.
 - **Both:** a local draft reviewed by Gemini. Needs a local model and a
   Gemini key.
 
+## What's new in 2.0.5
+
+- The **Dashboard** buttons no longer cut their labels in a narrow
+  window. As it gets narrower, **Open Ahoy Folder** and **Re-export all**
+  move into a **⋯** menu, then the buttons show icons only (hover for
+  their names).
+
 ## What's new in 2.0.4
 
 - On the **Dashboard**, the stats and the **Ask** and **Action items**
