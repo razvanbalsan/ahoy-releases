@@ -39,6 +39,14 @@ service directly.
 - **Both:** a local draft reviewed by Gemini. Needs a local model and a
   Gemini key.
 
+## What's new in 2.0.3
+
+- The engine lists in a call's **Transcribe** menu and in **Settings →
+  Transcription** are grouped into **On this Mac** and **Online**, and
+  show only engines that are ready: a downloaded model or a saved API key.
+- If the engine picked in Settings loses its model or key, it stays
+  selected and is marked "not set up".
+
 ## What's new in 2.0.2
 
 - A call's **Transcribe** menu lists an online engine only once its API
