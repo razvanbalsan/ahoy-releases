@@ -39,6 +39,13 @@ service directly.
 - **Both:** a local draft reviewed by Gemini. Needs a local model and a
   Gemini key.
 
+## What's new in 2.1.0
+
+- **Update channel** under **Settings → General → Updates**: pick
+  **Prerelease** to get test builds before they are released, or keep
+  **Production** (the default) for releases only. See
+  [Prereleases](#prereleases) below.
+
 ## What's new in 2.0.5
 
 - The **Dashboard** buttons no longer cut their labels in a narrow
