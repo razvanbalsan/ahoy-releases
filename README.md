@@ -112,3 +112,12 @@ service directly.
 
 Ahoy checks for updates automatically (Sparkle) and can be updated any time
 from the menu bar: **Check for Updates…**
+
+## Prereleases
+
+Test builds come out on
+[the Prereleases page](https://github.com/razvanbalsan/ahoy-releases/releases/tag/prerelease)
+before they are released, and may have bugs. To get them as updates, open
+**Settings → General → Updates** and set **Update channel** to
+**Prerelease**. Setting it back to **Production** keeps the version you
+have until a newer release is out.
