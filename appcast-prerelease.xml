@@ -3,6 +3,35 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.2.0</title>
+            <pubDate>Mon, 19 Oct 2026 18:12:17 +0300</pubDate>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Recording: start, stop or discard a recording from anywhere with keyboard shortcuts you choose in Settings → General → Shortcuts.
+- Recording: Start, Stop, Toggle and Cancel recording actions for the Shortcuts app, Raycast and Siri.
+- Recording: an optional floating pill shows the timer and the newest live caption, with Stop and Discard buttons. A discarded recording goes to the Trash.
+- Recording: optional start and stop sounds.
+- Recording: choose which microphone to record from, and a different one for when the MacBook lid is closed. If the chosen microphone is unplugged, Ahoy switches to the default one and keeps recording.
+- Live captions: Parakeet now shows live captions on this Mac, with no network, a few seconds behind speech.
+- Transcription: Parakeet and Whisper can tell the people on the other side of the call apart (Speaker 1, Speaker 2…) after a small one-time download in Settings → Transcription.
+- Transcription: optionally remove filler words (um, uh, ăă…) from final transcripts.
+- Transcription: optionally correct misheard custom-vocabulary words in Parakeet and Whisper transcripts.
+- Insights: use your own OpenAI-compatible server (Ollama, LM Studio, OpenRouter, Groq…) or Apple Intelligence (macOS 26) for summaries and questions.
+- Insights: add your own instructions to every summary, such as "Write in Romanian".
+- Insights: Translate to English with one click in the call assistant.
+- Storage: keep call audio forever, delete it after transcription, or after 3 days, 2 weeks or 3 months. Transcripts and insights are always kept. Star a call to keep its audio.
+- Menu bar: Copy Last Transcript, a Transcription engine submenu, and Unload Local Models.
+- Settings: remove the Parakeet and Whisper models, see which languages each covers, choose how long on-device models stay in memory, and view the last hour of Ahoy's log.
+- Ahoy is available in Romanian when your Mac (or Ahoy's language in System Settings) is set to Romanian.
+- Updates now show what changed before you install.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.2.0.dmg" length="23036800" type="application/octet-stream" sparkle:edSignature="S6efdXppMEfKzZzejFf8ZFQVRbNNBtOh/64k5Gp1Cp/Yt/7DxyqoSQZ3xIy4C5Chg1c4w8o0Se0kQnhOeYDHBQ=="/>
+        </item>
+        <item>
             <title>2.1.2</title>
             <pubDate>Thu, 15 Oct 2026 19:45:38 +0300</pubDate>
             <sparkle:version>48</sparkle:version>
@@ -19,15 +48,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.1.1.dmg" length="22617601" type="application/octet-stream" sparkle:edSignature="R6bjKzBC5OiaFSdvWv3t6+L3tvXf+obhtiZbPZN26aTPBYdMuLI39GaJ5Csd+0+uOrhaY/x4BBnF5gP25yVHBw=="/>
-        </item>
-        <item>
-            <title>2.1.0</title>
-            <pubDate>Tue, 13 Oct 2026 14:29:03 +0300</pubDate>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.1.0.dmg" length="22553272" type="application/octet-stream" sparkle:edSignature="BX0KLyc5TO7PMvqI7COeWhXCb2fSLv7d3kb4KCY4zh41UQ5vEiUgHwQ2gS4+TGpo1zj/BqftFm0IqAQqZr+8DQ=="/>
         </item>
     </channel>
 </rss>
