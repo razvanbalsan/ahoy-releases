@@ -3,6 +3,26 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.3.0</title>
+            <pubDate>Mon, 19 Oct 2026 20:35:16 +0300</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Insights: edit a call's summary, decisions and action items by hand, or write insights yourself for a call that has none.
+- Insights: Update with AI — describe a change ("make the summary shorter") and the insights are rewritten, with Undo.
+- Insights: Regenerate and Transcribe again ask before replacing insights you edited.
+- Action items: edit an item's text and owner, delete it, or add a new one for the same call, right in the Action Items list. Items you sent to Reminders follow your edits.
+- Recording pill: put it at the bottom of the screen, and choose a minimal style without the live caption.
+- On-device models: downloads show their speed and time left, and can be cancelled; the next download continues where it stopped.
+- On-device models: Verify checks an installed model's files against the published copy, and Repair fixes any damaged ones.
+- On-device models: Whisper's size now reads ≈3.2 GB, the real download.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.3.0.dmg" length="23262949" type="application/octet-stream" sparkle:edSignature="G0SSBHt7V/Rj9man1qcdv5+Iy+tzN6+C5yAS2Q97H3ffBWNqjAchWtdcQokFgAXYGUHV3TjpIgr0Mg62DX2xCA=="/>
+        </item>
+        <item>
             <title>2.2.0</title>
             <pubDate>Mon, 19 Oct 2026 18:12:17 +0300</pubDate>
             <sparkle:version>49</sparkle:version>
@@ -39,15 +59,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.1.2.dmg" length="22623486" type="application/octet-stream" sparkle:edSignature="UAQcOI/TrKJXxMWYfdZBcUUnivRdVUvHy/6Dpzxq/JGeFvIoLlJUeZigSD7OjVRSjqOYVV+U/XMdxWv0Oot0AQ=="/>
-        </item>
-        <item>
-            <title>2.1.1</title>
-            <pubDate>Thu, 15 Oct 2026 11:09:10 +0300</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.1.1.dmg" length="22617601" type="application/octet-stream" sparkle:edSignature="R6bjKzBC5OiaFSdvWv3t6+L3tvXf+obhtiZbPZN26aTPBYdMuLI39GaJ5Csd+0+uOrhaY/x4BBnF5gP25yVHBw=="/>
         </item>
     </channel>
 </rss>
