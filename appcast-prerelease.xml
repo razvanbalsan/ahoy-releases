@@ -3,6 +3,27 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.4.0</title>
+            <pubDate>Tue, 20 Oct 2026 15:08:49 +0300</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Live captions: choose the captions engine separately from the transcription engine, in Settings → Transcription → Live captions or the menu bar's Live captions submenu — for example captions from Parakeet on your Mac and a Gemini transcript after the call. Automatic keeps the previous behaviour, and Off replaces the "Live captions during calls" switch.
+- Live captions: when the engine you picked can't run (no API key, model not downloaded, a language Parakeet doesn't cover), the call records without captions and Settings says why. Ahoy never switches to another service on its own.
+- Transcription: choose which model Gemini, Soniox, AssemblyAI, ElevenLabs and OpenAI use, separately for live captions and for the transcript after the call, from the models that work with Ahoy or any model ID you type under Other….
+- Live captions: when Gemini refuses the chosen model, captions stop at once and Audio issues shows Gemini's reason.
+- Action items: set a due time and mark items Urgent, in the Action items list and when editing insights; sending to Reminders carries the time as an alert and Urgent as High priority.
+- Action items: summaries and Ask about this call fill in a due time and urgency when the call mentions them.
+- Action items: each row has an Edit button.
+- Look: in dark mode, links, menus and icons use a lighter blue that is easier to read.
+- Calls: metadata.json records the live and post-call models that actually ran, and its cost estimate counts live captions at the engine that captioned them.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.4.0.dmg" length="23357822" type="application/octet-stream" sparkle:edSignature="KeyViGUK5anFDBOaSH179h5LZ3nzFTtjfN5akPJtggNVJAdZ0i6pNHGasz5eUmAHuCm9cF/VUgdTOuFY64LaDA=="/>
+        </item>
+        <item>
             <title>2.3.1</title>
             <pubDate>Tue, 20 Oct 2026 09:49:04 +0300</pubDate>
             <sparkle:version>51</sparkle:version>
@@ -34,35 +55,6 @@
 - On-device models: Whisper's size now reads ≈3.2 GB, the real download.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.3.0.dmg" length="23262949" type="application/octet-stream" sparkle:edSignature="G0SSBHt7V/Rj9man1qcdv5+Iy+tzN6+C5yAS2Q97H3ffBWNqjAchWtdcQokFgAXYGUHV3TjpIgr0Mg62DX2xCA=="/>
-        </item>
-        <item>
-            <title>2.2.0</title>
-            <pubDate>Mon, 19 Oct 2026 18:12:17 +0300</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Recording: start, stop or discard a recording from anywhere with keyboard shortcuts you choose in Settings → General → Shortcuts.
-- Recording: Start, Stop, Toggle and Cancel recording actions for the Shortcuts app, Raycast and Siri.
-- Recording: an optional floating pill shows the timer and the newest live caption, with Stop and Discard buttons. A discarded recording goes to the Trash.
-- Recording: optional start and stop sounds.
-- Recording: choose which microphone to record from, and a different one for when the MacBook lid is closed. If the chosen microphone is unplugged, Ahoy switches to the default one and keeps recording.
-- Live captions: Parakeet now shows live captions on this Mac, with no network, a few seconds behind speech.
-- Transcription: Parakeet and Whisper can tell the people on the other side of the call apart (Speaker 1, Speaker 2…) after a small one-time download in Settings → Transcription.
-- Transcription: optionally remove filler words (um, uh, ăă…) from final transcripts.
-- Transcription: optionally correct misheard custom-vocabulary words in Parakeet and Whisper transcripts.
-- Insights: use your own OpenAI-compatible server (Ollama, LM Studio, OpenRouter, Groq…) or Apple Intelligence (macOS 26) for summaries and questions.
-- Insights: add your own instructions to every summary, such as "Write in Romanian".
-- Insights: Translate to English with one click in the call assistant.
-- Storage: keep call audio forever, delete it after transcription, or after 3 days, 2 weeks or 3 months. Transcripts and insights are always kept. Star a call to keep its audio.
-- Menu bar: Copy Last Transcript, a Transcription engine submenu, and Unload Local Models.
-- Settings: remove the Parakeet and Whisper models, see which languages each covers, choose how long on-device models stay in memory, and view the last hour of Ahoy's log.
-- Ahoy is available in Romanian when your Mac (or Ahoy's language in System Settings) is set to Romanian.
-- Updates now show what changed before you install.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.2.0.dmg" length="23036800" type="application/octet-stream" sparkle:edSignature="S6efdXppMEfKzZzejFf8ZFQVRbNNBtOh/64k5Gp1Cp/Yt/7DxyqoSQZ3xIy4C5Chg1c4w8o0Se0kQnhOeYDHBQ=="/>
         </item>
     </channel>
 </rss>
