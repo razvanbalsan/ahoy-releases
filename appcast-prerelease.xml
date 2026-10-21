@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.0</title>
+            <pubDate>Wed, 21 Oct 2026 08:02:42 +0300</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Action items: add your own items with New Action Item, either on their own ("Added by you", listed under the day you added them, counted as yours) or to one of your calls. They get due dates, Urgent and Send to Reminders like the rest.
+- Action items: add an item someone else owns to Mine, from its row's Mine mark or its context menu, or add all of a call's items at once with "Add All from This Call to Mine". The item keeps its owner, and Mine, the Dashboard tile and the menu bar count it.
+- Reminders: urgent items no longer get High priority (!!!). Apple doesn't let apps set Reminders' own Urgent, so turn it on in Reminders; the due time still arrives as an alert.
+- Calls: a recording that ended without a Stop (Ahoy quit or crashed mid-call) now shows how long its audio is, instead of the time until Ahoy was next opened. Calls already affected are corrected at launch.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.0.dmg" length="23430308" type="application/octet-stream" sparkle:edSignature="cq8APf76FwZqStEbK9RIOOdWSiTd+j764OmMCY8kd181Z3aXG0Mna6qzgnDTDpDcv44PEyiZ43dMb+CmHLpIBg=="/>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Tue, 20 Oct 2026 15:08:49 +0300</pubDate>
             <sparkle:version>52</sparkle:version>
@@ -35,26 +51,6 @@
 - Insights: Regenerate waits while the call assistant is answering or running Update with AI, so the two can no longer overwrite each other's insights.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.3.1.dmg" length="23263488" type="application/octet-stream" sparkle:edSignature="z9V+/iTBKXOj7UlFGMXyxk2s7dyTBrBgbSkS30E5Pcv62+DdfpoOk9sb7yrZoJUXEb8XaEhiNkQH0eCrS0t9Bw=="/>
-        </item>
-        <item>
-            <title>2.3.0</title>
-            <pubDate>Mon, 19 Oct 2026 20:35:16 +0300</pubDate>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Insights: edit a call's summary, decisions and action items by hand, or write insights yourself for a call that has none.
-- Insights: Update with AI — describe a change ("make the summary shorter") and the insights are rewritten, with Undo.
-- Insights: Regenerate and Transcribe again ask before replacing insights you edited.
-- Action items: edit an item's text and owner, delete it, or add a new one for the same call, right in the Action Items list. Items you sent to Reminders follow your edits.
-- Recording pill: put it at the bottom of the screen, and choose a minimal style without the live caption.
-- On-device models: downloads show their speed and time left, and can be cancelled; the next download continues where it stopped.
-- On-device models: Verify checks an installed model's files against the published copy, and Repair fixes any damaged ones.
-- On-device models: Whisper's size now reads ≈3.2 GB, the real download.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.3.0.dmg" length="23262949" type="application/octet-stream" sparkle:edSignature="G0SSBHt7V/Rj9man1qcdv5+Iy+tzN6+C5yAS2Q97H3ffBWNqjAchWtdcQokFgAXYGUHV3TjpIgr0Mg62DX2xCA=="/>
         </item>
     </channel>
 </rss>
