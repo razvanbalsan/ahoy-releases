@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.3</title>
+            <pubDate>Wed, 21 Oct 2026 18:04:03 +0300</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>2.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Recording: when the Mac or Ahoy is briefly busy during a call, your voice and the other side no longer drift apart for the rest of the recording, and the Audio issues chip no longer reports gaps that aren't there.
+- "Both": the copy of the call uploaded to Google for the review is now deleted as soon as the review ends, and a network blip during the upload no longer sends the whole call again.
+- Deleting a call while Ahoy re-exports your calls no longer brings its folder back.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.3.dmg" length="23459610" type="application/octet-stream" sparkle:edSignature="F8KA7oeUmbEs4pJz/Wr8LTXWG+PeCxQ3s9Rq4EQM1nPIr5x8LQb8ESmGnTTsJroA86qCudqv9vTGDzrjOxS4DA=="/>
+        </item>
+        <item>
             <title>2.5.2</title>
             <pubDate>Wed, 21 Oct 2026 11:55:00 +0300</pubDate>
             <sparkle:version>55</sparkle:version>
@@ -30,22 +45,6 @@
 - Action items: marking an item Urgent no longer moves it to the top of its section; it stays where it was, with its red Urgent mark.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.1.dmg" length="23428298" type="application/octet-stream" sparkle:edSignature="G/RZl+pa2JXCo+rmTlbIc5d5NlIqMu0nA7Q5LfVd0FnVt+qdgtz6TFJdG6a1xXAvoKU/C4jOMCao6nC36Sf5Bg=="/>
-        </item>
-        <item>
-            <title>2.5.0</title>
-            <pubDate>Wed, 21 Oct 2026 08:02:42 +0300</pubDate>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Action items: add your own items with New Action Item, either on their own ("Added by you", listed under the day you added them, counted as yours) or to one of your calls. They get due dates, Urgent and Send to Reminders like the rest.
-- Action items: add an item someone else owns to Mine, from its row's Mine mark or its context menu, or add all of a call's items at once with "Add All from This Call to Mine". The item keeps its owner, and Mine, the Dashboard tile and the menu bar count it.
-- Reminders: urgent items no longer get High priority (!!!). Apple doesn't let apps set Reminders' own Urgent, so turn it on in Reminders; the due time still arrives as an alert.
-- Calls: a recording that ended without a Stop (Ahoy quit or crashed mid-call) now shows how long its audio is, instead of the time until Ahoy was next opened. Calls already affected are corrected at launch.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.0.dmg" length="23430308" type="application/octet-stream" sparkle:edSignature="cq8APf76FwZqStEbK9RIOOdWSiTd+j764OmMCY8kd181Z3aXG0Mna6qzgnDTDpDcv44PEyiZ43dMb+CmHLpIBg=="/>
         </item>
     </channel>
 </rss>
