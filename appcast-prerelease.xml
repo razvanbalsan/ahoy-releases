@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.1</title>
+            <pubDate>Wed, 21 Oct 2026 09:05:29 +0300</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Action items: marking an item Urgent no longer moves it to the top of its section; it stays where it was, with its red Urgent mark.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.1.dmg" length="23428298" type="application/octet-stream" sparkle:edSignature="G/RZl+pa2JXCo+rmTlbIc5d5NlIqMu0nA7Q5LfVd0FnVt+qdgtz6TFJdG6a1xXAvoKU/C4jOMCao6nC36Sf5Bg=="/>
+        </item>
+        <item>
             <title>2.5.0</title>
             <pubDate>Wed, 21 Oct 2026 08:02:42 +0300</pubDate>
             <sparkle:version>53</sparkle:version>
@@ -38,19 +51,6 @@
 - Calls: metadata.json records the live and post-call models that actually ran, and its cost estimate counts live captions at the engine that captioned them.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.4.0.dmg" length="23357822" type="application/octet-stream" sparkle:edSignature="KeyViGUK5anFDBOaSH179h5LZ3nzFTtjfN5akPJtggNVJAdZ0i6pNHGasz5eUmAHuCm9cF/VUgdTOuFY64LaDA=="/>
-        </item>
-        <item>
-            <title>2.3.1</title>
-            <pubDate>Tue, 20 Oct 2026 09:49:04 +0300</pubDate>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Insights: Regenerate waits while the call assistant is answering or running Update with AI, so the two can no longer overwrite each other's insights.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.3.1.dmg" length="23263488" type="application/octet-stream" sparkle:edSignature="z9V+/iTBKXOj7UlFGMXyxk2s7dyTBrBgbSkS30E5Pcv62+DdfpoOk9sb7yrZoJUXEb8XaEhiNkQH0eCrS0t9Bw=="/>
         </item>
     </channel>
 </rss>
