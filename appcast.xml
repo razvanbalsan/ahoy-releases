@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.1</title>
+            <pubDate>Wed, 21 Oct 2026 10:38:31 +0300</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Action items: marking an item Urgent no longer moves it to the top of its section; it stays where it was, with its red Urgent mark.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.1.dmg" length="23428298" type="application/octet-stream" sparkle:edSignature="G/RZl+pa2JXCo+rmTlbIc5d5NlIqMu0nA7Q5LfVd0FnVt+qdgtz6TFJdG6a1xXAvoKU/C4jOMCao6nC36Sf5Bg=="/>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Tue, 20 Oct 2026 19:38:17 +0300</pubDate>
             <sparkle:version>52</sparkle:version>
@@ -31,15 +44,6 @@
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.1.0.dmg" length="22553272" type="application/octet-stream" sparkle:edSignature="BX0KLyc5TO7PMvqI7COeWhXCb2fSLv7d3kb4KCY4zh41UQ5vEiUgHwQ2gS4+TGpo1zj/BqftFm0IqAQqZr+8DQ=="/>
-        </item>
-        <item>
-            <title>2.0.5</title>
-            <pubDate>Sun, 11 Oct 2026 20:39:33 +0300</pubDate>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.0.5.dmg" length="22544450" type="application/octet-stream" sparkle:edSignature="XqjWd4GXllMKiTLPrYl/9wuGjWkVs5UD5nDA0mnIUYEg33e5gcOB33IyE4xeF6T2lCvHGp8bcLF4CFjn3lEZAQ=="/>
         </item>
     </channel>
 </rss>
