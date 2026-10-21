@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.2</title>
+            <pubDate>Wed, 21 Oct 2026 11:55:00 +0300</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Live captions: show them in a floating, translucent window while you record, with each line marked Me or Others. Turn it on in Settings → General (or the menu bar's Live captions submenu), pick its colour and transparency, then drag and resize it anywhere.
+- Recording: fixed a likely cause of Ahoy quitting in the middle of a recording when a headset switches modes, for example when a Teams call ends.
+- Keep audio: "Delete after transcription" no longer deletes the audio when "Both" kept the local draft or the transcript could not be saved, so Transcribe again still works.
+- "Both" and Gemini summaries: long calls no longer give up after a minute; Gemini now gets up to 10 minutes to reply.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.2.dmg" length="23465155" type="application/octet-stream" sparkle:edSignature="46ifsXbekCMvYYESJMHEgin+LBc/ZmPGOqqqJKGw5bJCHNRZrRO+DM8czldaBgpFx9AZtdsd5aIeVHtoJmVyCg=="/>
+        </item>
+        <item>
             <title>2.5.1</title>
             <pubDate>Wed, 21 Oct 2026 09:05:29 +0300</pubDate>
             <sparkle:version>54</sparkle:version>
@@ -30,27 +46,6 @@
 - Calls: a recording that ended without a Stop (Ahoy quit or crashed mid-call) now shows how long its audio is, instead of the time until Ahoy was next opened. Calls already affected are corrected at launch.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.0.dmg" length="23430308" type="application/octet-stream" sparkle:edSignature="cq8APf76FwZqStEbK9RIOOdWSiTd+j764OmMCY8kd181Z3aXG0Mna6qzgnDTDpDcv44PEyiZ43dMb+CmHLpIBg=="/>
-        </item>
-        <item>
-            <title>2.4.0</title>
-            <pubDate>Tue, 20 Oct 2026 15:08:49 +0300</pubDate>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Live captions: choose the captions engine separately from the transcription engine, in Settings → Transcription → Live captions or the menu bar's Live captions submenu — for example captions from Parakeet on your Mac and a Gemini transcript after the call. Automatic keeps the previous behaviour, and Off replaces the "Live captions during calls" switch.
-- Live captions: when the engine you picked can't run (no API key, model not downloaded, a language Parakeet doesn't cover), the call records without captions and Settings says why. Ahoy never switches to another service on its own.
-- Transcription: choose which model Gemini, Soniox, AssemblyAI, ElevenLabs and OpenAI use, separately for live captions and for the transcript after the call, from the models that work with Ahoy or any model ID you type under Other….
-- Live captions: when Gemini refuses the chosen model, captions stop at once and Audio issues shows Gemini's reason.
-- Action items: set a due time and mark items Urgent, in the Action items list and when editing insights; sending to Reminders carries the time as an alert and Urgent as High priority.
-- Action items: summaries and Ask about this call fill in a due time and urgency when the call mentions them.
-- Action items: each row has an Edit button.
-- Look: in dark mode, links, menus and icons use a lighter blue that is easier to read.
-- Calls: metadata.json records the live and post-call models that actually ran, and its cost estimate counts live captions at the engine that captioned them.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.4.0.dmg" length="23357822" type="application/octet-stream" sparkle:edSignature="KeyViGUK5anFDBOaSH179h5LZ3nzFTtjfN5akPJtggNVJAdZ0i6pNHGasz5eUmAHuCm9cF/VUgdTOuFY64LaDA=="/>
         </item>
     </channel>
 </rss>
