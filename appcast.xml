@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.2</title>
+            <pubDate>Wed, 21 Oct 2026 13:11:14 +0300</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Live captions: show them in a floating, translucent window while you record, with each line marked Me or Others. Turn it on in Settings → General (or the menu bar's Live captions submenu), pick its colour and transparency, then drag and resize it anywhere.
+- Recording: fixed a likely cause of Ahoy quitting in the middle of a recording when a headset switches modes, for example when a Teams call ends.
+- Keep audio: "Delete after transcription" no longer deletes the audio when "Both" kept the local draft or the transcript could not be saved, so Transcribe again still works.
+- "Both" and Gemini summaries: long calls no longer give up after a minute; Gemini now gets up to 10 minutes to reply.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.2.dmg" length="23465155" type="application/octet-stream" sparkle:edSignature="46ifsXbekCMvYYESJMHEgin+LBc/ZmPGOqqqJKGw5bJCHNRZrRO+DM8czldaBgpFx9AZtdsd5aIeVHtoJmVyCg=="/>
+        </item>
+        <item>
             <title>2.5.1</title>
             <pubDate>Wed, 21 Oct 2026 10:38:31 +0300</pubDate>
             <sparkle:version>54</sparkle:version>
@@ -35,15 +51,6 @@
 - Calls: metadata.json records the live and post-call models that actually ran, and its cost estimate counts live captions at the engine that captioned them.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.4.0.dmg" length="23357822" type="application/octet-stream" sparkle:edSignature="KeyViGUK5anFDBOaSH179h5LZ3nzFTtjfN5akPJtggNVJAdZ0i6pNHGasz5eUmAHuCm9cF/VUgdTOuFY64LaDA=="/>
-        </item>
-        <item>
-            <title>2.1.0</title>
-            <pubDate>Tue, 13 Oct 2026 14:29:02 +0300</pubDate>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.1.0.dmg" length="22553272" type="application/octet-stream" sparkle:edSignature="BX0KLyc5TO7PMvqI7COeWhXCb2fSLv7d3kb4KCY4zh41UQ5vEiUgHwQ2gS4+TGpo1zj/BqftFm0IqAQqZr+8DQ=="/>
         </item>
     </channel>
 </rss>
