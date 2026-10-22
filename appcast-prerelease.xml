@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.5.4</title>
+            <pubDate>Thu, 22 Oct 2026 14:27:05 +0300</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>2.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Live captions window: its settings moved to Settings → Transcription, right under Live captions, and Settings now warns you when live captions are off, since the window only appears while they run.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.4.dmg" length="23461053" type="application/octet-stream" sparkle:edSignature="2kaOS7FNSqHPGXk71XPMAhjwcfSeAVpfstWqzezfwzw2mibFi5mfl38XtPdTt8T5JwyflEetfp9/zGMHFBJNCQ=="/>
+        </item>
+        <item>
             <title>2.5.3</title>
             <pubDate>Wed, 21 Oct 2026 18:04:03 +0300</pubDate>
             <sparkle:version>56</sparkle:version>
@@ -32,19 +45,6 @@
 - "Both" and Gemini summaries: long calls no longer give up after a minute; Gemini now gets up to 10 minutes to reply.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.2.dmg" length="23465155" type="application/octet-stream" sparkle:edSignature="46ifsXbekCMvYYESJMHEgin+LBc/ZmPGOqqqJKGw5bJCHNRZrRO+DM8czldaBgpFx9AZtdsd5aIeVHtoJmVyCg=="/>
-        </item>
-        <item>
-            <title>2.5.1</title>
-            <pubDate>Wed, 21 Oct 2026 09:05:29 +0300</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Action items: marking an item Urgent no longer moves it to the top of its section; it stays where it was, with its red Urgent mark.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.1.dmg" length="23428298" type="application/octet-stream" sparkle:edSignature="G/RZl+pa2JXCo+rmTlbIc5d5NlIqMu0nA7Q5LfVd0FnVt+qdgtz6TFJdG6a1xXAvoKU/C4jOMCao6nC36Sf5Bg=="/>
         </item>
     </channel>
 </rss>
