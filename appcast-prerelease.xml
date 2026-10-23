@@ -3,6 +3,25 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.6.0</title>
+            <pubDate>Fri, 23 Oct 2026 09:43:57 +0300</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Live captions window: it now stays above other windows (including a call app's always-on-top window), moves when you drag it and resizes from any edge or corner, also mid-call.
+- Live captions window: a × closes it for the rest of the call; "Show Captions Window" on the call's screen or the menu bar's Captions Window brings it back, and the next call shows it again.
+- New, experimental: Whistle, a tiny speech-to-text model (≈17 MB) that runs on your Mac for transcripts and live captions in English, German, French, Spanish, Italian, Dutch and Polish. It has no Romanian: Romanian calls use Parakeet or Whisper instead.
+- New, experimental: Needle, a tiny local model (≈35 MB) that writes call insights on your Mac. Its summaries and action items are rough, and it can't answer questions, so Ask and Update with AI need another insights engine.
+- Settings is now one scrolling page with a category list on the side that follows you as you scroll; buttons such as Go to API Keys jump to the right card. Appearance and Insights have their own cards, and the local models are in their own Local models card.
+- You can pick the colors of titles, body text, secondary text and links for Light and Dark under Settings, Appearance.
+- A new Use local models switch turns off everything that runs on your Mac and frees the memory of Parakeet, Whisper, speaker separation and the Gemma insights model (Whistle and Needle are tiny and stay in memory until Ahoy quits); calls then use your online engine or are saved to transcribe later. Unload Now frees the models without turning them off.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.6.0.dmg" length="24281942" type="application/octet-stream" sparkle:edSignature="z0otD8XXsrwCkU/9XOvVL+ISf065c3npg4Ja2TF9aN8bKato8BRDywU5qwlVcNKYMKD2WHQPwfvd/rn8mr9LAw=="/>
+        </item>
+        <item>
             <title>2.5.5</title>
             <pubDate>Thu, 22 Oct 2026 15:29:44 +0300</pubDate>
             <sparkle:version>58</sparkle:version>
@@ -29,21 +48,6 @@
 - Live captions window: its settings moved to Settings → Transcription, right under Live captions, and Settings now warns you when live captions are off, since the window only appears while they run.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.4.dmg" length="23461053" type="application/octet-stream" sparkle:edSignature="2kaOS7FNSqHPGXk71XPMAhjwcfSeAVpfstWqzezfwzw2mibFi5mfl38XtPdTt8T5JwyflEetfp9/zGMHFBJNCQ=="/>
-        </item>
-        <item>
-            <title>2.5.3</title>
-            <pubDate>Wed, 21 Oct 2026 18:04:03 +0300</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>2.5.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Recording: when the Mac or Ahoy is briefly busy during a call, your voice and the other side no longer drift apart for the rest of the recording, and the Audio issues chip no longer reports gaps that aren't there.
-- "Both": the copy of the call uploaded to Google for the review is now deleted as soon as the review ends, and a network blip during the upload no longer sends the whole call again.
-- Deleting a call while Ahoy re-exports your calls no longer brings its folder back.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.3.dmg" length="23459610" type="application/octet-stream" sparkle:edSignature="F8KA7oeUmbEs4pJz/Wr8LTXWG+PeCxQ3s9Rq4EQM1nPIr5x8LQb8ESmGnTTsJroA86qCudqv9vTGDzrjOxS4DA=="/>
         </item>
     </channel>
 </rss>
