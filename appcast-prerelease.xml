@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.3</title>
+            <pubDate>Sat, 24 Oct 2026 00:38:06 +0300</pubDate>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Clicking a period in the Dashboard's period list now lands on that period's heading even in a long library, including older months and years.
+- After you click a period, scrolling with a mouse wheel or trackpad moves the feed freely again instead of stalling near that period's heading.
+- The period list keeps showing the right period while you scroll through a long month.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.3.dmg" length="24439851" type="application/octet-stream" sparkle:edSignature="vs5knj3VpnyQNy1kqWKLrctoX7rVxubE0gYvJLJEvIiyHmaQjwoV8lpJKvzQo7JJrY8d1dLWNghxxERX0jQiDQ=="/>
+        </item>
+        <item>
             <title>2.7.2</title>
             <pubDate>Fri, 23 Oct 2026 21:40:52 +0300</pubDate>
             <sparkle:version>62</sparkle:version>
@@ -33,23 +48,6 @@
 - Calls with a topic or a name you gave them now show their day on the Dashboard card, for example "Sat, 17 Oct · 18:02".
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.1.dmg" length="24423699" type="application/octet-stream" sparkle:edSignature="Pr+eR/NJduokD8U94EmvCHhA0YXdomXyWzmoxHFXqFCWZPuh/X6h84YPFAx+X5TfUThmBiRcADoNCsseOB/ODA=="/>
-        </item>
-        <item>
-            <title>2.7.0</title>
-            <pubDate>Fri, 23 Oct 2026 18:39:00 +0300</pubDate>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Ahoy now tells you when a call's transcript is ready, or when it couldn't transcribe a call and why. Click the notification to open the call.
-- While a call is being transcribed, the menu bar shows its progress. Afterwards it points out calls that couldn't be transcribed or are waiting for you to pick a language; click the line to open the call.
-- Deleting a call now moves it to the Trash instead of removing it for good. A banner offers Undo (or ⌘Z) until you dismiss it, delete something else or close the window, and Undo brings back the call with its transcript, insights and reminders.
-- A call that is still being transcribed can be moved to the Trash once it finishes.
-- New installs no longer record calls automatically; setup asks. Your current setting is kept.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.0.dmg" length="24383716" type="application/octet-stream" sparkle:edSignature="Omt+AWIaD6O+prMgzKU4Avz5lZsAQSlFbEHJmAGm+ZaybW7ok+3uipc0+uF2gDuzCL/Mh8SNsVkraBbvs+lGCg=="/>
         </item>
     </channel>
 </rss>
