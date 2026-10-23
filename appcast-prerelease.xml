@@ -3,6 +3,23 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.0</title>
+            <pubDate>Fri, 23 Oct 2026 18:39:00 +0300</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>2.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Ahoy now tells you when a call's transcript is ready, or when it couldn't transcribe a call and why. Click the notification to open the call.
+- While a call is being transcribed, the menu bar shows its progress. Afterwards it points out calls that couldn't be transcribed or are waiting for you to pick a language; click the line to open the call.
+- Deleting a call now moves it to the Trash instead of removing it for good. A banner offers Undo (or ⌘Z) until you dismiss it, delete something else or close the window, and Undo brings back the call with its transcript, insights and reminders.
+- A call that is still being transcribed can be moved to the Trash once it finishes.
+- New installs no longer record calls automatically; setup asks. Your current setting is kept.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.0.dmg" length="24383716" type="application/octet-stream" sparkle:edSignature="Omt+AWIaD6O+prMgzKU4Avz5lZsAQSlFbEHJmAGm+ZaybW7ok+3uipc0+uF2gDuzCL/Mh8SNsVkraBbvs+lGCg=="/>
+        </item>
+        <item>
             <title>2.6.0</title>
             <pubDate>Fri, 23 Oct 2026 09:43:57 +0300</pubDate>
             <sparkle:version>59</sparkle:version>
@@ -35,19 +52,6 @@
 - Reminders: action items sent to Reminders now follow Update with AI, its Undo and Regenerate, and they are removed when you delete the call, so you no longer get stale or duplicate reminders.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.5.dmg" length="23465394" type="application/octet-stream" sparkle:edSignature="pwlQub8VMCtNZrM148MQB1uFsp4MfKdAblb9nYZ5Hao4pvObdpaELAfJgLq/4apgZGT0WlNIH/V7J/uYuigRDw=="/>
-        </item>
-        <item>
-            <title>2.5.4</title>
-            <pubDate>Thu, 22 Oct 2026 14:27:05 +0300</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>2.5.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Live captions window: its settings moved to Settings → Transcription, right under Live captions, and Settings now warns you when live captions are off, since the window only appears while they run.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.4.dmg" length="23461053" type="application/octet-stream" sparkle:edSignature="2kaOS7FNSqHPGXk71XPMAhjwcfSeAVpfstWqzezfwzw2mibFi5mfl38XtPdTt8T5JwyflEetfp9/zGMHFBJNCQ=="/>
         </item>
     </channel>
 </rss>
