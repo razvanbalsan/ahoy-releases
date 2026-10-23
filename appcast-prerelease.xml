@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.1</title>
+            <pubDate>Fri, 23 Oct 2026 20:27:04 +0300</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>2.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- The Dashboard now groups calls by period: Today, Yesterday, This week, Last week, Earlier this month, Last month, then one heading per month.
+- A list of those periods sits left of the feed, in the same style as the Settings categories. It shows where you are as you scroll, and clicking a period jumps to it. Earlier years appear as one entry each. The list hides in narrow windows and while you search.
+- Calls with a topic or a name you gave them now show their day on the Dashboard card, for example "Sat, 17 Oct · 18:02".
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.1.dmg" length="24423699" type="application/octet-stream" sparkle:edSignature="Pr+eR/NJduokD8U94EmvCHhA0YXdomXyWzmoxHFXqFCWZPuh/X6h84YPFAx+X5TfUThmBiRcADoNCsseOB/ODA=="/>
+        </item>
+        <item>
             <title>2.7.0</title>
             <pubDate>Fri, 23 Oct 2026 18:39:00 +0300</pubDate>
             <sparkle:version>60</sparkle:version>
@@ -37,21 +52,6 @@
 - A new Use local models switch turns off everything that runs on your Mac and frees the memory of Parakeet, Whisper, speaker separation and the Gemma insights model (Whistle and Needle are tiny and stay in memory until Ahoy quits); calls then use your online engine or are saved to transcribe later. Unload Now frees the models without turning them off.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.6.0.dmg" length="24281942" type="application/octet-stream" sparkle:edSignature="z0otD8XXsrwCkU/9XOvVL+ISf065c3npg4Ja2TF9aN8bKato8BRDywU5qwlVcNKYMKD2WHQPwfvd/rn8mr9LAw=="/>
-        </item>
-        <item>
-            <title>2.5.5</title>
-            <pubDate>Thu, 22 Oct 2026 15:29:44 +0300</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>2.5.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Whisper: a short answer said twice ("Da." … "Da.") is no longer dropped from the transcript the second time.
-- Whisper: a call in a language you set up is no longer transcribed in another language because one loud stretch sounded like it (an accented English call read as Italian).
-- Reminders: action items sent to Reminders now follow Update with AI, its Undo and Regenerate, and they are removed when you delete the call, so you no longer get stale or duplicate reminders.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.5.5.dmg" length="23465394" type="application/octet-stream" sparkle:edSignature="pwlQub8VMCtNZrM148MQB1uFsp4MfKdAblb9nYZ5Hao4pvObdpaELAfJgLq/4apgZGT0WlNIH/V7J/uYuigRDw=="/>
         </item>
     </channel>
 </rss>
