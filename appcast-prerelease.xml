@@ -3,6 +3,23 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.2</title>
+            <pubDate>Fri, 23 Oct 2026 21:40:52 +0300</pubDate>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>2.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- The Dashboard's period list and the Settings category list now sit on the right. The Dashboard's Overview and By app panels moved to the left.
+- A new call's day heading no longer opens above the visible part of the Dashboard after you have scrolled or jumped to a period.
+- After you click a period, any scroll you make yourself hands the highlight back to the period you are looking at.
+- With a non-Gregorian calendar (for example Japanese), older years in the period list show their proper year names.
+- The Dashboard does less work while you search and when it redraws dates.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.2.dmg" length="24449551" type="application/octet-stream" sparkle:edSignature="tvt8JXyBKP13edPwad7VbGUaRkbLDlfK3UMaDkeJG7oRBMcON4vCa657+DNYialqrfP8ssW5ZeD5CzaLgKoBAw=="/>
+        </item>
+        <item>
             <title>2.7.1</title>
             <pubDate>Fri, 23 Oct 2026 20:27:04 +0300</pubDate>
             <sparkle:version>61</sparkle:version>
@@ -33,25 +50,6 @@
 - New installs no longer record calls automatically; setup asks. Your current setting is kept.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.0.dmg" length="24383716" type="application/octet-stream" sparkle:edSignature="Omt+AWIaD6O+prMgzKU4Avz5lZsAQSlFbEHJmAGm+ZaybW7ok+3uipc0+uF2gDuzCL/Mh8SNsVkraBbvs+lGCg=="/>
-        </item>
-        <item>
-            <title>2.6.0</title>
-            <pubDate>Fri, 23 Oct 2026 09:43:57 +0300</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Live captions window: it now stays above other windows (including a call app's always-on-top window), moves when you drag it and resizes from any edge or corner, also mid-call.
-- Live captions window: a × closes it for the rest of the call; "Show Captions Window" on the call's screen or the menu bar's Captions Window brings it back, and the next call shows it again.
-- New, experimental: Whistle, a tiny speech-to-text model (≈17 MB) that runs on your Mac for transcripts and live captions in English, German, French, Spanish, Italian, Dutch and Polish. It has no Romanian: Romanian calls use Parakeet or Whisper instead.
-- New, experimental: Needle, a tiny local model (≈35 MB) that writes call insights on your Mac. Its summaries and action items are rough, and it can't answer questions, so Ask and Update with AI need another insights engine.
-- Settings is now one scrolling page with a category list on the side that follows you as you scroll; buttons such as Go to API Keys jump to the right card. Appearance and Insights have their own cards, and the local models are in their own Local models card.
-- You can pick the colors of titles, body text, secondary text and links for Light and Dark under Settings, Appearance.
-- A new Use local models switch turns off everything that runs on your Mac and frees the memory of Parakeet, Whisper, speaker separation and the Gemma insights model (Whistle and Needle are tiny and stay in memory until Ahoy quits); calls then use your online engine or are saved to transcribe later. Unload Now frees the models without turning them off.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.6.0.dmg" length="24281942" type="application/octet-stream" sparkle:edSignature="z0otD8XXsrwCkU/9XOvVL+ISf065c3npg4Ja2TF9aN8bKato8BRDywU5qwlVcNKYMKD2WHQPwfvd/rn8mr9LAw=="/>
         </item>
     </channel>
 </rss>
