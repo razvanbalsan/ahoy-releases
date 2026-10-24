@@ -3,6 +3,20 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.1</title>
+            <pubDate>Sat, 24 Oct 2026 23:32:39 +0300</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- In Settings, the Start Recording button now lines up with the settings cards, left of the category list, instead of sitting at the window's edge.
+- The Back button no longer shows a clipped label right after the window is resized.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.8.1.dmg" length="25074465" type="application/octet-stream" sparkle:edSignature="hiHnNYKMojj6hwVNCbPZBzEtJUZ5SB/YY6ly+YRihpoQCkkWYGgHLheh3iSVAbWb5aglk68kup/zeUyjjG0bAg=="/>
+        </item>
+        <item>
             <title>2.5.4</title>
             <pubDate>Thu, 22 Oct 2026 15:10:50 +0300</pubDate>
             <sparkle:version>57</sparkle:version>
@@ -30,19 +44,6 @@
 - "Both" and Gemini summaries: long calls no longer give up after a minute; Gemini now gets up to 10 minutes to reply.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.2.dmg" length="23465155" type="application/octet-stream" sparkle:edSignature="46ifsXbekCMvYYESJMHEgin+LBc/ZmPGOqqqJKGw5bJCHNRZrRO+DM8czldaBgpFx9AZtdsd5aIeVHtoJmVyCg=="/>
-        </item>
-        <item>
-            <title>2.5.1</title>
-            <pubDate>Wed, 21 Oct 2026 10:38:31 +0300</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Action items: marking an item Urgent no longer moves it to the top of its section; it stays where it was, with its red Urgent mark.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.1.dmg" length="23428298" type="application/octet-stream" sparkle:edSignature="G/RZl+pa2JXCo+rmTlbIc5d5NlIqMu0nA7Q5LfVd0FnVt+qdgtz6TFJdG6a1xXAvoKU/C4jOMCao6nC36Sf5Bg=="/>
         </item>
     </channel>
 </rss>
