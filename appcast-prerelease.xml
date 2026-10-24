@@ -3,6 +3,20 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.2</title>
+            <pubDate>Sat, 24 Oct 2026 23:40:18 +0300</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- While a summary waits for a transcription on this Mac to finish, the Insights card says so instead of "Generating…".
+- A summary that resumes on its own after Low Power Mode, heat or memory pressure can no longer be slowed by App Nap while the window is closed.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.2.dmg" length="25078425" type="application/octet-stream" sparkle:edSignature="AMIqKmc6IaGNZASPlNRKZ6xjH7tRpOpJONPLwBPbXqsIS1/rbr1oPu2mTXddzyEzNk11WlScfUeYx1/r2kBjAg=="/>
+        </item>
+        <item>
             <title>2.8.1</title>
             <pubDate>Sat, 24 Oct 2026 23:31:50 +0300</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -36,21 +50,6 @@
 - Apple Intelligence insights use the model's real context size, so longer calls fit on newer macOS versions.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.0.dmg" length="25058346" type="application/octet-stream" sparkle:edSignature="U5SswT5RTtUbXrgmqPIx6hA92g0ZxMSzwvxioo6n8jEuY0xxRZXpviYA16jTK1ak++2Z87M00KEQbfig54mvCw=="/>
-        </item>
-        <item>
-            <title>2.7.7</title>
-            <pubDate>Sat, 24 Oct 2026 12:35:28 +0300</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>2.7.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Action items has the same period list as the Dashboard on its right: click Today, Last week or a month to jump there.
-- The period and category lists grow and shrink with the window: wider in a wide window, with more room between the names in a tall one.
-- On Action items, an item's owner, due date, Urgent and Mine controls stack neatly in a narrow window instead of squeezing their text.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.7.dmg" length="24448562" type="application/octet-stream" sparkle:edSignature="S33V0h6wbR6AYWxcrcNU77yL+8sFwwurlAyfL2Egi2kVj8Zd71ScAh5iYsSjca3ilER/PmtJf3XS1LJcrFFZAw=="/>
         </item>
     </channel>
 </rss>
