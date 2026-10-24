@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.7</title>
+            <pubDate>Sat, 24 Oct 2026 12:35:28 +0300</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>2.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Action items has the same period list as the Dashboard on its right: click Today, Last week or a month to jump there.
+- The period and category lists grow and shrink with the window: wider in a wide window, with more room between the names in a tall one.
+- On Action items, an item's owner, due date, Urgent and Mine controls stack neatly in a narrow window instead of squeezing their text.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.7.dmg" length="24448562" type="application/octet-stream" sparkle:edSignature="S33V0h6wbR6AYWxcrcNU77yL+8sFwwurlAyfL2Egi2kVj8Zd71ScAh5iYsSjca3ilER/PmtJf3XS1LJcrFFZAw=="/>
+        </item>
+        <item>
             <title>2.7.6</title>
             <pubDate>Sat, 24 Oct 2026 11:57:34 +0300</pubDate>
             <sparkle:version>66</sparkle:version>
@@ -27,23 +42,6 @@
 - The period list on the Dashboard and the category list in Settings sit further from the scroll bar, so they no longer look cramped against it.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.5.dmg" length="24414083" type="application/octet-stream" sparkle:edSignature="AIb/dHg6KFPvuKmoQLJg8bWpW0gxSGn9PYrJJiBcXHsxobMWw2D4JVGwwS1JIckfUYRSPxGoFnqA7VdXGu9+Aw=="/>
-        </item>
-        <item>
-            <title>2.7.4</title>
-            <pubDate>Sat, 24 Oct 2026 01:53:19 +0300</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>2.7.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- The Dashboard is now just your calls: the Overview numbers and the calls-by-app list moved to Settings, in a new Statistics section.
-- Import…, Open Ahoy Folder and Re-export all moved into the Dashboard's new Other menu. You can still import by dropping audio files on the window or with Open With in Finder.
-- The period list shows in narrower windows too, now that the Dashboard has more room.
-- If you start scrolling while a period jump is still settling, the feed no longer snaps back to that period's heading.
-- The Statistics numbers update right away after you change how long audio is kept.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.4.dmg" length="24414534" type="application/octet-stream" sparkle:edSignature="cpjCz7e1tNltVKQjIJxilVnvFp9Kib1rBADCg1m8Z8bhLeqSsutwXzuk6tiSBhDFuij4gC7GRakoq0IGn5/PBQ=="/>
         </item>
     </channel>
 </rss>
