@@ -3,6 +3,20 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.1</title>
+            <pubDate>Sat, 24 Oct 2026 23:31:50 +0300</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- In Settings, the Start Recording button now lines up with the settings cards, left of the category list, instead of sitting at the window's edge.
+- The Back button no longer shows a clipped label right after the window is resized.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.1.dmg" length="25074465" type="application/octet-stream" sparkle:edSignature="hiHnNYKMojj6hwVNCbPZBzEtJUZ5SB/YY6ly+YRihpoQCkkWYGgHLheh3iSVAbWb5aglk68kup/zeUyjjG0bAg=="/>
+        </item>
+        <item>
             <title>2.8.0</title>
             <pubDate>Sat, 24 Oct 2026 23:08:08 +0300</pubDate>
             <sparkle:version>68</sparkle:version>
@@ -37,19 +51,6 @@
 - On Action items, an item's owner, due date, Urgent and Mine controls stack neatly in a narrow window instead of squeezing their text.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.7.dmg" length="24448562" type="application/octet-stream" sparkle:edSignature="S33V0h6wbR6AYWxcrcNU77yL+8sFwwurlAyfL2Egi2kVj8Zd71ScAh5iYsSjca3ilER/PmtJf3XS1LJcrFFZAw=="/>
-        </item>
-        <item>
-            <title>2.7.6</title>
-            <pubDate>Sat, 24 Oct 2026 11:57:34 +0300</pubDate>
-            <sparkle:version>66</sparkle:version>
-            <sparkle:shortVersionString>2.7.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- The period list on the Dashboard and the category list in Settings now sit centred down the side of the window. A period list longer than the window starts at the top and scrolls.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.6.dmg" length="24414870" type="application/octet-stream" sparkle:edSignature="yhaG4VnPJlYygO5WANqXY6VRnKewo10IBHfC14Uywg9+Khns9Xgoy4sJR7/5b/v4HwX0lhVubgA7fQ8YlhP5CA=="/>
         </item>
     </channel>
 </rss>
