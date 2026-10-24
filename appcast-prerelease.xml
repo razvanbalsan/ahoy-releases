@@ -3,6 +3,27 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.0</title>
+            <pubDate>Sat, 24 Oct 2026 23:08:08 +0300</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Local insights with Gemma use about half the memory they did, and the first summary of a call is a little faster.
+- Ahoy keeps one large local model in memory at a time on Macs with less than 24 GB, and frees idle models as soon as macOS reports memory pressure.
+- Live captions make fewer mistakes where two caption windows meet.
+- Speaker separation runs on the Neural Engine, leaving the GPU to local insights.
+- Whisper now uses a model that fits your Mac: a 1.6 GB turbo build, or a 630 MB build on M1 and 8 GB Macs. An installed older build keeps working until you download the new one. The model is prepared right after download, so the first transcription doesn't wait for it.
+- Transcribing, uploading and speaker attribution no longer read a whole call into memory, so long calls use far less memory after they end.
+- With Low Power Mode on, when your Mac runs hot, or when memory is short, local insights wait and are written on their own when it's back to normal. You can always write them now from the call. Recording and live captions are never affected.
+- When your Mac is critically hot, calls that would be transcribed by a model on your Mac wait too, and start when it cools down. You can transcribe them at once from the call.
+- Apple Intelligence insights use the model's real context size, so longer calls fit on newer macOS versions.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.0.dmg" length="25058346" type="application/octet-stream" sparkle:edSignature="U5SswT5RTtUbXrgmqPIx6hA92g0ZxMSzwvxioo6n8jEuY0xxRZXpviYA16jTK1ak++2Z87M00KEQbfig54mvCw=="/>
+        </item>
+        <item>
             <title>2.7.7</title>
             <pubDate>Sat, 24 Oct 2026 12:35:28 +0300</pubDate>
             <sparkle:version>67</sparkle:version>
@@ -29,19 +50,6 @@
 - The period list on the Dashboard and the category list in Settings now sit centred down the side of the window. A period list longer than the window starts at the top and scrolls.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.6.dmg" length="24414870" type="application/octet-stream" sparkle:edSignature="yhaG4VnPJlYygO5WANqXY6VRnKewo10IBHfC14Uywg9+Khns9Xgoy4sJR7/5b/v4HwX0lhVubgA7fQ8YlhP5CA=="/>
-        </item>
-        <item>
-            <title>2.7.5</title>
-            <pubDate>Sat, 24 Oct 2026 11:24:51 +0300</pubDate>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>2.7.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- The period list on the Dashboard and the category list in Settings sit further from the scroll bar, so they no longer look cramped against it.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.5.dmg" length="24414083" type="application/octet-stream" sparkle:edSignature="AIb/dHg6KFPvuKmoQLJg8bWpW0gxSGn9PYrJJiBcXHsxobMWw2D4JVGwwS1JIckfUYRSPxGoFnqA7VdXGu9+Aw=="/>
         </item>
     </channel>
 </rss>
