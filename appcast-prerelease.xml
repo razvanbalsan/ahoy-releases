@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.7.6</title>
+            <pubDate>Sat, 24 Oct 2026 11:57:34 +0300</pubDate>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>2.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- The period list on the Dashboard and the category list in Settings now sit centred down the side of the window. A period list longer than the window starts at the top and scrolls.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.6.dmg" length="24414870" type="application/octet-stream" sparkle:edSignature="yhaG4VnPJlYygO5WANqXY6VRnKewo10IBHfC14Uywg9+Khns9Xgoy4sJR7/5b/v4HwX0lhVubgA7fQ8YlhP5CA=="/>
+        </item>
+        <item>
             <title>2.7.5</title>
             <pubDate>Sat, 24 Oct 2026 11:24:51 +0300</pubDate>
             <sparkle:version>65</sparkle:version>
@@ -31,21 +44,6 @@
 - The Statistics numbers update right away after you change how long audio is kept.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.4.dmg" length="24414534" type="application/octet-stream" sparkle:edSignature="cpjCz7e1tNltVKQjIJxilVnvFp9Kib1rBADCg1m8Z8bhLeqSsutwXzuk6tiSBhDFuij4gC7GRakoq0IGn5/PBQ=="/>
-        </item>
-        <item>
-            <title>2.7.3</title>
-            <pubDate>Sat, 24 Oct 2026 00:38:06 +0300</pubDate>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>2.7.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Clicking a period in the Dashboard's period list now lands on that period's heading even in a long library, including older months and years.
-- After you click a period, scrolling with a mouse wheel or trackpad moves the feed freely again instead of stalling near that period's heading.
-- The period list keeps showing the right period while you scroll through a long month.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.7.3.dmg" length="24439851" type="application/octet-stream" sparkle:edSignature="vs5knj3VpnyQNy1kqWKLrctoX7rVxubE0gYvJLJEvIiyHmaQjwoV8lpJKvzQo7JJrY8d1dLWNghxxERX0jQiDQ=="/>
         </item>
     </channel>
 </rss>
