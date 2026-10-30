@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.3</title>
+            <pubDate>Fri, 30 Oct 2026 14:59:50 +0200</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>2.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Plugging in headphones or getting a Teams notification no longer starts a recording.
+- A Teams call that Ahoy recorded automatically now stops about 10 seconds after you hang up, instead of recording on.
+- An automatic recording now starts once a call app has used the microphone for about 3 seconds, so a short sound never starts one. The first few seconds of a detected call are not recorded.
+- FaceTime calls are no longer detected automatically. Start those with Start Recording.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.3.dmg" length="25077145" type="application/octet-stream" sparkle:edSignature="r7UADce+vqXyAngQcChJZYbPVkATYzKalAfHvcuwJ5hRX6OKlrkdSrjhqGBSkivkF8n3OZqs1wGlzycxoOtECA=="/>
+        </item>
+        <item>
             <title>2.8.2</title>
             <pubDate>Sat, 24 Oct 2026 23:40:18 +0300</pubDate>
             <sparkle:version>70</sparkle:version>
@@ -29,27 +45,6 @@
 - The Back button no longer shows a clipped label right after the window is resized.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.1.dmg" length="25074465" type="application/octet-stream" sparkle:edSignature="hiHnNYKMojj6hwVNCbPZBzEtJUZ5SB/YY6ly+YRihpoQCkkWYGgHLheh3iSVAbWb5aglk68kup/zeUyjjG0bAg=="/>
-        </item>
-        <item>
-            <title>2.8.0</title>
-            <pubDate>Sat, 24 Oct 2026 23:08:08 +0300</pubDate>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>2.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Local insights with Gemma use about half the memory they did, and the first summary of a call is a little faster.
-- Ahoy keeps one large local model in memory at a time on Macs with less than 24 GB, and frees idle models as soon as macOS reports memory pressure.
-- Live captions make fewer mistakes where two caption windows meet.
-- Speaker separation runs on the Neural Engine, leaving the GPU to local insights.
-- Whisper now uses a model that fits your Mac: a 1.6 GB turbo build, or a 630 MB build on M1 and 8 GB Macs. An installed older build keeps working until you download the new one. The model is prepared right after download, so the first transcription doesn't wait for it.
-- Transcribing, uploading and speaker attribution no longer read a whole call into memory, so long calls use far less memory after they end.
-- With Low Power Mode on, when your Mac runs hot, or when memory is short, local insights wait and are written on their own when it's back to normal. You can always write them now from the call. Recording and live captions are never affected.
-- When your Mac is critically hot, calls that would be transcribed by a model on your Mac wait too, and start when it cools down. You can transcribe them at once from the call.
-- Apple Intelligence insights use the model's real context size, so longer calls fit on newer macOS versions.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.0.dmg" length="25058346" type="application/octet-stream" sparkle:edSignature="U5SswT5RTtUbXrgmqPIx6hA92g0ZxMSzwvxioo6n8jEuY0xxRZXpviYA16jTK1ak++2Z87M00KEQbfig54mvCw=="/>
         </item>
     </channel>
 </rss>
