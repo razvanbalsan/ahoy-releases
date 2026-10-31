@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.4</title>
+            <pubDate>Sat, 31 Oct 2026 09:29:26 +0200</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>2.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Scrolling the Dashboard and Action items is smooth again in a big library; with a few hundred calls, Action items could stall for up to a second at a time.
+- Save Diagnostics… and Save Diagnostics Report… no longer freeze Ahoy while they build the zip (up to half a minute when old recordings had to come back from iCloud).
+- Starting or stopping a recording no longer pauses Ahoy for a moment while the chime plays.
+- On a call's screen, only one thing rewrites the insights at a time: Regenerate, Generate, Transcribe again, Ask and Translate now wait while another of them, or an assistant reply, is still running, so one can no longer silently overwrite the other.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.4.dmg" length="25104012" type="application/octet-stream" sparkle:edSignature="vGawNMqioeaNwVzEYWaHu/qgQbHZQjTkeOpekvRNHUO5KRq1RVve5d9irRhVo/Gj4KaIKgHi6+zEzZhJ1NBxCQ=="/>
+        </item>
+        <item>
             <title>2.8.3</title>
             <pubDate>Fri, 30 Oct 2026 14:59:50 +0200</pubDate>
             <sparkle:version>71</sparkle:version>
@@ -31,20 +47,6 @@
 - A summary that resumes on its own after Low Power Mode, heat or memory pressure can no longer be slowed by App Nap while the window is closed.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.2.dmg" length="25078425" type="application/octet-stream" sparkle:edSignature="AMIqKmc6IaGNZASPlNRKZ6xjH7tRpOpJONPLwBPbXqsIS1/rbr1oPu2mTXddzyEzNk11WlScfUeYx1/r2kBjAg=="/>
-        </item>
-        <item>
-            <title>2.8.1</title>
-            <pubDate>Sat, 24 Oct 2026 23:31:50 +0300</pubDate>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>2.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- In Settings, the Start Recording button now lines up with the settings cards, left of the category list, instead of sitting at the window's edge.
-- The Back button no longer shows a clipped label right after the window is resized.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.1.dmg" length="25074465" type="application/octet-stream" sparkle:edSignature="hiHnNYKMojj6hwVNCbPZBzEtJUZ5SB/YY6ly+YRihpoQCkkWYGgHLheh3iSVAbWb5aglk68kup/zeUyjjG0bAg=="/>
         </item>
     </channel>
 </rss>
