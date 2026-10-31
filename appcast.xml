@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.8.4</title>
+            <pubDate>Sat, 31 Oct 2026 15:19:47 +0200</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>2.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Scrolling the Dashboard and Action items is smooth again in a big library; with a few hundred calls, Action items could stall for up to a second at a time.
+- Save Diagnostics… and Save Diagnostics Report… no longer freeze Ahoy while they build the zip (up to half a minute when old recordings had to come back from iCloud).
+- Starting or stopping a recording no longer pauses Ahoy for a moment while the chime plays.
+- On a call's screen, only one thing rewrites the insights at a time: Regenerate, Generate, Transcribe again, Ask and Translate now wait while another of them, or an assistant reply, is still running, so one can no longer silently overwrite the other.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.8.4.dmg" length="25104012" type="application/octet-stream" sparkle:edSignature="vGawNMqioeaNwVzEYWaHu/qgQbHZQjTkeOpekvRNHUO5KRq1RVve5d9irRhVo/Gj4KaIKgHi6+zEzZhJ1NBxCQ=="/>
+        </item>
+        <item>
             <title>2.8.1</title>
             <pubDate>Sat, 24 Oct 2026 23:32:39 +0300</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -28,22 +44,6 @@
 - Live captions window: its settings moved to Settings → Transcription, right under Live captions, and Settings now warns you when live captions are off, since the window only appears while they run.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.4.dmg" length="23461053" type="application/octet-stream" sparkle:edSignature="2kaOS7FNSqHPGXk71XPMAhjwcfSeAVpfstWqzezfwzw2mibFi5mfl38XtPdTt8T5JwyflEetfp9/zGMHFBJNCQ=="/>
-        </item>
-        <item>
-            <title>2.5.2</title>
-            <pubDate>Wed, 21 Oct 2026 13:11:14 +0300</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>2.5.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Live captions: show them in a floating, translucent window while you record, with each line marked Me or Others. Turn it on in Settings → General (or the menu bar's Live captions submenu), pick its colour and transparency, then drag and resize it anywhere.
-- Recording: fixed a likely cause of Ahoy quitting in the middle of a recording when a headset switches modes, for example when a Teams call ends.
-- Keep audio: "Delete after transcription" no longer deletes the audio when "Both" kept the local draft or the transcript could not be saved, so Transcribe again still works.
-- "Both" and Gemini summaries: long calls no longer give up after a minute; Gemini now gets up to 10 minutes to reply.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.5.2.dmg" length="23465155" type="application/octet-stream" sparkle:edSignature="46ifsXbekCMvYYESJMHEgin+LBc/ZmPGOqqqJKGw5bJCHNRZrRO+DM8czldaBgpFx9AZtdsd5aIeVHtoJmVyCg=="/>
         </item>
     </channel>
 </rss>
