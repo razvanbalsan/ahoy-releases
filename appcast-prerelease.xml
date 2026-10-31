@@ -3,6 +3,32 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.10.0</title>
+            <pubDate>Sat, 31 Oct 2026 22:41:15 +0200</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Setup asks one question: keep everything on this Mac (free; it downloads what it needs, with the progress right there) or use an online service with your own API key (it shows about what an hour costs). Your answer sets transcription, summaries and live captions together.
+- "Keep everything on this Mac" now really does: the new Settings → Transcription → Only transcribe on this Mac makes a call wait for a downloaded model instead of going to Gemini.
+- Ask says when it can't answer yet, because no insights engine is set up, and links to Settings → Insights, instead of failing after you send a question.
+- Every call on the Dashboard shows its day and date, how long it lasted in minutes, and the app only once; the cards are shorter.
+- The Dashboard's Ask and Action items tiles are smaller and quieter, and the Ask field no longer takes the keyboard when the Dashboard opens. The header's "Move to Trash" button is now "Select…".
+- A call's screen says where its audio was transcribed ("Transcribed on this Mac", "Transcribed by Gemini (Google)", …) and where Transcribe again would send it next time.
+- Action items show Edit and Send to Reminders when you point at an item; they are always in the right-click menu and available to VoiceOver.
+- Messages about a missing key or model say what they are for (asking questions or writing insights), and inside Settings they name the section instead of sending you to Settings.
+- Settings explanations start with what stays on your Mac and what is sent where; card titles line up with their settings, and the app language has its own row.
+- The empty Dashboard says Ahoy is watching for calls, and whether it will ask before recording.
+- The recording pill's Discard button is a trash can.
+- The audio player sits below the call instead of floating over it.
+- Insights list action items as plain bullets; tick them off in Action items.
+- The permission buttons in setup no longer get cut off.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.10.0.dmg" length="25306474" type="application/octet-stream" sparkle:edSignature="jNrfoOm29rUATVidrsn1ofJtCYNYXveDwRJyRTA9SREDztvIwaJRMif5nRKtRDVMZbE2x1wgN3S/jzeAXKH5BQ=="/>
+        </item>
+        <item>
             <title>2.9.1</title>
             <pubDate>Sat, 31 Oct 2026 19:41:48 +0200</pubDate>
             <sparkle:version>74</sparkle:version>
@@ -50,22 +76,6 @@
 - Clearer messages when a recording can't start, when saving an API key fails, and in Ask when no call has been transcribed yet.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.9.0.dmg" length="25175232" type="application/octet-stream" sparkle:edSignature="idQzBYm5IavCB5axbQCJ6etlWfkFbf1z/Qj89t8NDhWpTFTc5dAdfXpZWPA+3fNLG5K2Oo+o4Z+qevs5JKMDCg=="/>
-        </item>
-        <item>
-            <title>2.8.4</title>
-            <pubDate>Sat, 31 Oct 2026 09:29:26 +0200</pubDate>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>2.8.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Scrolling the Dashboard and Action items is smooth again in a big library; with a few hundred calls, Action items could stall for up to a second at a time.
-- Save Diagnostics… and Save Diagnostics Report… no longer freeze Ahoy while they build the zip (up to half a minute when old recordings had to come back from iCloud).
-- Starting or stopping a recording no longer pauses Ahoy for a moment while the chime plays.
-- On a call's screen, only one thing rewrites the insights at a time: Regenerate, Generate, Transcribe again, Ask and Translate now wait while another of them, or an assistant reply, is still running, so one can no longer silently overwrite the other.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.4.dmg" length="25104012" type="application/octet-stream" sparkle:edSignature="vGawNMqioeaNwVzEYWaHu/qgQbHZQjTkeOpekvRNHUO5KRq1RVve5d9irRhVo/Gj4KaIKgHi6+zEzZhJ1NBxCQ=="/>
         </item>
     </channel>
 </rss>
