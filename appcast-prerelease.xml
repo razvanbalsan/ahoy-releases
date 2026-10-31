@@ -3,6 +3,37 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.9.0</title>
+            <pubDate>Sat, 31 Oct 2026 18:21:08 +0200</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>2.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Discarding a recording can be undone: the pill shows "Recording discarded · Undo" for a few seconds, the notification has an Undo button, and so does the banner in the Ahoy window (or ⌘Z). The pill's Stop and Discard buttons are also bigger and further apart, so they are harder to mix up.
+- Back now returns to the screen you came from (Action items, Ask, Settings or a call) and says where it goes; ⌘[ does the same. The Action items filter is kept on the way back.
+- Settings… is in the menu bar menu, and ⌘, opens Settings.
+- Right-click a call on the Dashboard to open it, star it, reveal its audio, open its transcript or folder, or move it to the Trash; ⌫ moves it to the Trash too.
+- Live captions window: a Text size setting (17 to 36 pt), speaker names at full strength, and lines that use the whole width. Transparency now stops where the captions would get hard to read over a bright window, and the window turns solid when Increase contrast or Reduce transparency is on in System Settings.
+- A transcript that comes back empty (for example a failed review in "Both" mode) no longer replaces your transcript, and "Keep audio: after transcription" no longer deletes the audio of such a call.
+- A full disk now stops the recording and tells you why, instead of carrying on without saving anything.
+- A Zoom call is no longer stopped when another app starts using the microphone during it.
+- Starting a recording no longer freezes Ahoy, for example while macOS asks for microphone access.
+- Long calls open and scroll smoothly; an hour-long transcript could stall for up to a second at a time.
+- Moving many calls to the Trash no longer freezes the window, and Ahoy no longer starts slowly after an interrupted search update. A call whose new transcription failed stays searchable.
+- Cloud live captions keep going through a short Wi-Fi drop and stop only after two minutes without a connection. Gemini live captions now stop, and say why, when Gemini keeps closing the connection.
+- Gemini is no longer asked, and paid, twice for the same transcription after a dropped connection, and a failed upload is deleted from Google right away.
+- An imported old recording keeps its audio for the whole "Keep audio" period, counted from when you imported it.
+- Warnings and error messages are easier to read in light mode.
+- With Reduce motion on, jumps in Settings, the Dashboard, Action items, Ask and the transcript happen instantly.
+- In a narrow window the call screen keeps all its toolbar buttons visible, and Start Recording shrinks to an icon.
+- VoiceOver reads what each icon button does, finds section headings, and can play the recording from any transcript line.
+- Clearer messages when a recording can't start, when saving an API key fails, and in Ask when no call has been transcribed yet.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.9.0.dmg" length="25175232" type="application/octet-stream" sparkle:edSignature="idQzBYm5IavCB5axbQCJ6etlWfkFbf1z/Qj89t8NDhWpTFTc5dAdfXpZWPA+3fNLG5K2Oo+o4Z+qevs5JKMDCg=="/>
+        </item>
+        <item>
             <title>2.8.4</title>
             <pubDate>Sat, 31 Oct 2026 09:29:26 +0200</pubDate>
             <sparkle:version>72</sparkle:version>
@@ -33,20 +64,6 @@
 - FaceTime calls are no longer detected automatically. Start those with Start Recording.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.3.dmg" length="25077145" type="application/octet-stream" sparkle:edSignature="r7UADce+vqXyAngQcChJZYbPVkATYzKalAfHvcuwJ5hRX6OKlrkdSrjhqGBSkivkF8n3OZqs1wGlzycxoOtECA=="/>
-        </item>
-        <item>
-            <title>2.8.2</title>
-            <pubDate>Sat, 24 Oct 2026 23:40:18 +0300</pubDate>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>2.8.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- While a summary waits for a transcription on this Mac to finish, the Insights card says so instead of "Generating…".
-- A summary that resumes on its own after Low Power Mode, heat or memory pressure can no longer be slowed by App Nap while the window is closed.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.8.2.dmg" length="25078425" type="application/octet-stream" sparkle:edSignature="AMIqKmc6IaGNZASPlNRKZ6xjH7tRpOpJONPLwBPbXqsIS1/rbr1oPu2mTXddzyEzNk11WlScfUeYx1/r2kBjAg=="/>
         </item>
     </channel>
 </rss>
