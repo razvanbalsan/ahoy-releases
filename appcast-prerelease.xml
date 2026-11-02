@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.11.1</title>
+            <pubDate>Mon, 02 Nov 2026 15:31:34 +0200</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Calls are named after their calendar meeting again when the meeting reached Calendar without its Teams join link. Since Oct 30 such calls kept the app's name ("Microsoft Teams"). Calls from the last two weeks that missed their meeting's name get it when Ahoy next starts.
+- A recording that started before its meeting reached your calendar is named when you stop it, or as soon as the meeting shows up.
+- Record now sits in the middle of the toolbar on every screen, as a red dot with "Record" (just the dot in a narrow window). While recording it becomes the red timer with Stop, at the same size, so nothing else in the toolbar moves.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.1.dmg" length="25382315" type="application/octet-stream" sparkle:edSignature="+bwFRqowlbLJQNbED5O4EGstyIKhe+tfHSFeF+2bF/+zKg7W0S9ZY/1CVMRXVwQTBcTfZsh36UrAGKoRLmPkAw=="/>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Mon, 02 Nov 2026 13:27:15 +0200</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -43,32 +58,6 @@
 - Fixed a rare crash when Gemini returned a malformed timestamp.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.10.1.dmg" length="25323698" type="application/octet-stream" sparkle:edSignature="bsct7vVepu8GFB7+RRsk6pfdYCjDl+LXga5HXOmr++uorcFODboWotVNocj+QIZNPAnfjizN6Epx1QYHp0TaCg=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Sat, 31 Oct 2026 22:41:15 +0200</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Setup asks one question: keep everything on this Mac (free; it downloads what it needs, with the progress right there) or use an online service with your own API key (it shows about what an hour costs). Your answer sets transcription, summaries and live captions together.
-- "Keep everything on this Mac" now really does: the new Settings → Transcription → Only transcribe on this Mac makes a call wait for a downloaded model instead of going to Gemini.
-- Ask says when it can't answer yet, because no insights engine is set up, and links to Settings → Insights, instead of failing after you send a question.
-- Every call on the Dashboard shows its day and date, how long it lasted in minutes, and the app only once; the cards are shorter.
-- The Dashboard's Ask and Action items tiles are smaller and quieter, and the Ask field no longer takes the keyboard when the Dashboard opens. The header's "Move to Trash" button is now "Select…".
-- A call's screen says where its audio was transcribed ("Transcribed on this Mac", "Transcribed by Gemini (Google)", …) and where Transcribe again would send it next time.
-- Action items show Edit and Send to Reminders when you point at an item; they are always in the right-click menu and available to VoiceOver.
-- Messages about a missing key or model say what they are for (asking questions or writing insights), and inside Settings they name the section instead of sending you to Settings.
-- Settings explanations start with what stays on your Mac and what is sent where; card titles line up with their settings, and the app language has its own row.
-- The empty Dashboard says Ahoy is watching for calls, and whether it will ask before recording.
-- The recording pill's Discard button is a trash can.
-- The audio player sits below the call instead of floating over it.
-- Insights list action items as plain bullets; tick them off in Action items.
-- The permission buttons in setup no longer get cut off.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.10.0.dmg" length="25306474" type="application/octet-stream" sparkle:edSignature="jNrfoOm29rUATVidrsn1ofJtCYNYXveDwRJyRTA9SREDztvIwaJRMif5nRKtRDVMZbE2x1wgN3S/jzeAXKH5BQ=="/>
         </item>
     </channel>
 </rss>
