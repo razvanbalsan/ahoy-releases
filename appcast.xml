@@ -3,6 +3,22 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.11.2</title>
+            <pubDate>Tue, 03 Nov 2026 09:50:54 +0200</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Record, Settings and search now sit together at the left of the toolbar and stay there however wide the window is. Record is the first button on every screen, so it never moves when you go to another screen.
+- In a narrow window Record is a round red dot, like the Settings button beside it.
+- While recording, the red Stop button stands on its own instead of sharing a frame with the button next to it.
+- The name of the screen you're on (Dashboard, Settings, Action items, Ask across calls) now sits at the right end of the toolbar. A call's title stays next to the Back button.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.11.2.dmg" length="25260749" type="application/octet-stream" sparkle:edSignature="pjEbs1YulnTmIWG6/Yyn1smaLggwcPMKeAVxXxRBF2aeVrdBDhw+NtjJH7L42WNAVz4i/EoMlBGIXjGD1xQJAA=="/>
+        </item>
+        <item>
             <title>2.10.1</title>
             <pubDate>Sun, 01 Nov 2026 22:13:38 +0200</pubDate>
             <sparkle:version>76</sparkle:version>
@@ -50,24 +66,6 @@
 - The permission buttons in setup no longer get cut off.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.10.0.dmg" length="25306474" type="application/octet-stream" sparkle:edSignature="jNrfoOm29rUATVidrsn1ofJtCYNYXveDwRJyRTA9SREDztvIwaJRMif5nRKtRDVMZbE2x1wgN3S/jzeAXKH5BQ=="/>
-        </item>
-        <item>
-            <title>2.9.1</title>
-            <pubDate>Sat, 31 Oct 2026 20:41:06 +0200</pubDate>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>2.9.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Error messages now say what went wrong in plain words, instead of internal names like "accessDenied" or "The operation couldn't be completed": a microphone or system audio that won't start (with the setting to check), a recording whose audio can't be read, a reply from Gemini that couldn't be read, a call whose audio couldn't be recovered after a crash, and failed model downloads.
-- Banners at the top of the window (Undo after moving to the Trash, imports) slide in and out instead of pushing the page down at once, and a call moved to the Trash disappears smoothly; Undo brings it back the same way.
-- The red dot in the recording pill gently pulses while Ahoy is recording.
-- The transcription percentage counts up instead of jumping.
-- Copying a call's insights shows a checkmark for a moment, so you know it worked.
-- With Reduce motion on in System Settings, all of these happen instantly.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.9.1.dmg" length="25196385" type="application/octet-stream" sparkle:edSignature="PfRqI8igbiltPAU0iU7iX9/QPfoYPtuvLe5LvoTMGDZ9CmlD4V3K6S9qB8Y1R9aJepK/AQ/V4WKJYtshsfYqAQ=="/>
         </item>
     </channel>
 </rss>
