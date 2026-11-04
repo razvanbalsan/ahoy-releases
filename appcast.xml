@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.11.3</title>
+            <pubDate>Wed, 04 Nov 2026 15:08:38 +0200</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- A call's name is now the heading at the top of its page, in full, instead of a cut-off title in the toolbar.
+- The Dashboard's Other and Select… buttons sit right after its title, on the left.
+- The screen's name at the right of the toolbar now lines up with the page's right edge.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.11.3.dmg" length="25425460" type="application/octet-stream" sparkle:edSignature="YSABDRGcd4Ozwno5NDLpJ+8D1jD0Jphw5dHPTsjZ1OmzlSgwNkgyPMKG5T0CeYOVU+NZhWwzMoQ/vcAG2KUPCQ=="/>
+        </item>
+        <item>
             <title>2.11.2</title>
             <pubDate>Tue, 03 Nov 2026 09:50:54 +0200</pubDate>
             <sparkle:version>79</sparkle:version>
@@ -40,32 +55,6 @@
 - Fixed a rare crash when Gemini returned a malformed timestamp.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.10.1.dmg" length="25323698" type="application/octet-stream" sparkle:edSignature="bsct7vVepu8GFB7+RRsk6pfdYCjDl+LXga5HXOmr++uorcFODboWotVNocj+QIZNPAnfjizN6Epx1QYHp0TaCg=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Sat, 31 Oct 2026 22:43:42 +0200</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Setup asks one question: keep everything on this Mac (free; it downloads what it needs, with the progress right there) or use an online service with your own API key (it shows about what an hour costs). Your answer sets transcription, summaries and live captions together.
-- "Keep everything on this Mac" now really does: the new Settings → Transcription → Only transcribe on this Mac makes a call wait for a downloaded model instead of going to Gemini.
-- Ask says when it can't answer yet, because no insights engine is set up, and links to Settings → Insights, instead of failing after you send a question.
-- Every call on the Dashboard shows its day and date, how long it lasted in minutes, and the app only once; the cards are shorter.
-- The Dashboard's Ask and Action items tiles are smaller and quieter, and the Ask field no longer takes the keyboard when the Dashboard opens. The header's "Move to Trash" button is now "Select…".
-- A call's screen says where its audio was transcribed ("Transcribed on this Mac", "Transcribed by Gemini (Google)", …) and where Transcribe again would send it next time.
-- Action items show Edit and Send to Reminders when you point at an item; they are always in the right-click menu and available to VoiceOver.
-- Messages about a missing key or model say what they are for (asking questions or writing insights), and inside Settings they name the section instead of sending you to Settings.
-- Settings explanations start with what stays on your Mac and what is sent where; card titles line up with their settings, and the app language has its own row.
-- The empty Dashboard says Ahoy is watching for calls, and whether it will ask before recording.
-- The recording pill's Discard button is a trash can.
-- The audio player sits below the call instead of floating over it.
-- Insights list action items as plain bullets; tick them off in Action items.
-- The permission buttons in setup no longer get cut off.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.10.0.dmg" length="25306474" type="application/octet-stream" sparkle:edSignature="jNrfoOm29rUATVidrsn1ofJtCYNYXveDwRJyRTA9SREDztvIwaJRMif5nRKtRDVMZbE2x1wgN3S/jzeAXKH5BQ=="/>
         </item>
     </channel>
 </rss>
