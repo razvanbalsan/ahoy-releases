@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.11.3</title>
+            <pubDate>Wed, 04 Nov 2026 15:08:12 +0200</pubDate>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- A call's name is now the heading at the top of its page, in full, instead of a cut-off title in the toolbar.
+- The Dashboard's Other and Select… buttons sit right after its title, on the left.
+- The screen's name at the right of the toolbar now lines up with the page's right edge.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.3.dmg" length="25425460" type="application/octet-stream" sparkle:edSignature="YSABDRGcd4Ozwno5NDLpJ+8D1jD0Jphw5dHPTsjZ1OmzlSgwNkgyPMKG5T0CeYOVU+NZhWwzMoQ/vcAG2KUPCQ=="/>
+        </item>
+        <item>
             <title>2.11.2</title>
             <pubDate>Tue, 03 Nov 2026 09:44:33 +0200</pubDate>
             <sparkle:version>79</sparkle:version>
@@ -32,25 +47,6 @@
 - Record now sits in the middle of the toolbar on every screen, as a red dot with "Record" (just the dot in a narrow window). While recording it becomes the red timer with Stop, at the same size, so nothing else in the toolbar moves.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.1.dmg" length="25382315" type="application/octet-stream" sparkle:edSignature="+bwFRqowlbLJQNbED5O4EGstyIKhe+tfHSFeF+2bF/+zKg7W0S9ZY/1CVMRXVwQTBcTfZsh36UrAGKoRLmPkAw=="/>
-        </item>
-        <item>
-            <title>2.11.0</title>
-            <pubDate>Mon, 02 Nov 2026 13:27:15 +0200</pubDate>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- A recording started with the keyboard shortcut, a Shortcut, the menu bar or automatically now always plays the start sound, so you know it began even with the window closed. The "Play a sound" setting still covers Start and Stop pressed in the Ahoy window.
-- VoiceOver now tells you when a recording starts, is saved, is too short to keep or is discarded, and when a transcript, an Ask answer or an insights update is ready. It also announces search results, the find bar's position, and import and model download progress.
-- Settings → Detection lists the apps that start a recording by name and icon, each with a remove button, and Add App… lets you pick any app from Applications. You no longer need to type an app's ID.
-- A call's insights are shown in Ahoy's language, with your name instead of "Me" and the same due dates as Action items. The exported files stay in English.
-- Links and buttons are easier to read in light mode: their blue is a little darker.
-- The permission, update, import and undo banners have a plain background. The Action items tile's counts and the star on starred calls are easier to see.
-- Romanian: Ahoy now addresses you as "tu" everywhere, and the call screen's transcript heading reads "Text transcris" so it no longer repeats the "Transcriere" card.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.0.dmg" length="25372080" type="application/octet-stream" sparkle:edSignature="sWIL3tXGzsNv/EZTBpYkt8cgNRB18Z5vyt3xe7EuWFNKw4L8XGxbCaYZ5clxJNSTrO8ZkUhzQTHo4HPOduMhAw=="/>
         </item>
     </channel>
 </rss>
