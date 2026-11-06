@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.13.1</title>
+            <pubDate>Fri, 06 Nov 2026 20:31:52 +0200</pubDate>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- With keyboard navigation on, Tab no longer stops on an action item's hidden Edit and Send to Reminders buttons. They now appear while either has focus, so you can reach and press them from the keyboard.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.13.1.dmg" length="25524240" type="application/octet-stream" sparkle:edSignature="p3H2V8I/HqGBn2TWu/jR6h+vGgntNv7VxGb2KqrDcPZJzC0xFlr0+PRT24F9LUaOch7UhhMb4ngIAAH/sRkVCA=="/>
+        </item>
+        <item>
             <title>2.13.0</title>
             <pubDate>Fri, 06 Nov 2026 20:16:21 +0200</pubDate>
             <sparkle:version>82</sparkle:version>
@@ -31,22 +44,6 @@
 - The screen's name at the right of the toolbar now lines up with the page's right edge.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.11.3.dmg" length="25425460" type="application/octet-stream" sparkle:edSignature="YSABDRGcd4Ozwno5NDLpJ+8D1jD0Jphw5dHPTsjZ1OmzlSgwNkgyPMKG5T0CeYOVU+NZhWwzMoQ/vcAG2KUPCQ=="/>
-        </item>
-        <item>
-            <title>2.11.2</title>
-            <pubDate>Tue, 03 Nov 2026 09:50:54 +0200</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Record, Settings and search now sit together at the left of the toolbar and stay there however wide the window is. Record is the first button on every screen, so it never moves when you go to another screen.
-- In a narrow window Record is a round red dot, like the Settings button beside it.
-- While recording, the red Stop button stands on its own instead of sharing a frame with the button next to it.
-- The name of the screen you're on (Dashboard, Settings, Action items, Ask across calls) now sits at the right end of the toolbar. A call's title stays next to the Back button.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.11.2.dmg" length="25260749" type="application/octet-stream" sparkle:edSignature="pjEbs1YulnTmIWG6/Yyn1smaLggwcPMKeAVxXxRBF2aeVrdBDhw+NtjJH7L42WNAVz4i/EoMlBGIXjGD1xQJAA=="/>
         </item>
     </channel>
 </rss>
