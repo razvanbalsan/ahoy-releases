@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Fri, 06 Nov 2026 20:16:21 +0200</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Back-to-back calls get their own recordings. A recording Ahoy started for a detected call now stops 3 seconds after the call app lets go of the microphone (it was 10), so hanging up and joining the next call a few seconds later no longer runs both into one recording.
+- New Advanced settings, at the end of Settings: how long a call app must let go of the microphone before recording stops, how long it must hold it before recording starts, and the shortest recording kept (0 keeps all). Type any whole number of seconds or step by 1 with the arrows.
+- Scrolling Action items with the pointer over the window is smooth again; with many calls it could stall for up to a few seconds.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.13.0.dmg" length="25523872" type="application/octet-stream" sparkle:edSignature="1pu6S8BuaKyJC7z+epigDoxCIcG2psFT1K4h8716r3OLtgypI5mz5nReBnYBqFqYN0VBsry/MKPLRuKuqc5+Dw=="/>
+        </item>
+        <item>
             <title>2.11.3</title>
             <pubDate>Wed, 04 Nov 2026 15:08:38 +0200</pubDate>
             <sparkle:version>80</sparkle:version>
@@ -32,29 +47,6 @@
 - The name of the screen you're on (Dashboard, Settings, Action items, Ask across calls) now sits at the right end of the toolbar. A call's title stays next to the Back button.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.11.2.dmg" length="25260749" type="application/octet-stream" sparkle:edSignature="pjEbs1YulnTmIWG6/Yyn1smaLggwcPMKeAVxXxRBF2aeVrdBDhw+NtjJH7L42WNAVz4i/EoMlBGIXjGD1xQJAA=="/>
-        </item>
-        <item>
-            <title>2.10.1</title>
-            <pubDate>Sun, 01 Nov 2026 22:13:38 +0200</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Gemini transcription now deletes the transcript Google keeps of each part as soon as Ahoy has it, as it already did for the uploaded audio. Google would otherwise keep it for 55 days on a paid key.
-- Links written by the AI in insights, the call assistant and Ask open only if they are secure web links (https), and show their address when you point at them. Other links stay plain text, so words said in a call can't plant a link that opens something on your Mac.
-- Stop no longer hangs at "Finishing" when the network drops silently during a call with live captions; the recording closes within a few seconds.
-- Ahoy uses much less of your Mac while recording: the window no longer redraws everything every second, and imports and model downloads no longer slow the Dashboard down.
-- Action items, the call screen, the transcript search and Ask respond faster with a large library and long calls; typing in Ask no longer lags with long answers.
-- Re-export all no longer freezes the app with a large library, and ticking items done, renaming speakers or starring a call no longer pauses the window while its files are rewritten.
-- Whisper uses far less memory on long calls (it reads the recording in 10-minute pieces), which matters most on Macs with 8 GB.
-- Long uploads to Soniox and AssemblyAI use less memory.
-- A device switch that makes macOS's audio system stall can no longer slow the rest of the app down, and a long freeze no longer makes Ahoy restart a microphone that was working.
-- A call that couldn't be recovered after a crash can be moved to the Trash right away.
-- Fixed a rare crash when Gemini returned a malformed timestamp.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.10.1.dmg" length="25323698" type="application/octet-stream" sparkle:edSignature="bsct7vVepu8GFB7+RRsk6pfdYCjDl+LXga5HXOmr++uorcFODboWotVNocj+QIZNPAnfjizN6Epx1QYHp0TaCg=="/>
         </item>
     </channel>
 </rss>
