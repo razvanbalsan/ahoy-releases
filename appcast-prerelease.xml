@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Fri, 06 Nov 2026 20:15:51 +0200</pubDate>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Back-to-back calls get their own recordings. A recording Ahoy started for a detected call now stops 3 seconds after the call app lets go of the microphone (it was 10), so hanging up and joining the next call a few seconds later no longer runs both into one recording.
+- New Advanced settings, at the end of Settings: how long a call app must let go of the microphone before recording stops, how long it must hold it before recording starts, and the shortest recording kept (0 keeps all). Type any whole number of seconds or step by 1 with the arrows.
+- Scrolling Action items with the pointer over the window is smooth again; with many calls it could stall for up to a few seconds.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.13.0.dmg" length="25523872" type="application/octet-stream" sparkle:edSignature="1pu6S8BuaKyJC7z+epigDoxCIcG2psFT1K4h8716r3OLtgypI5mz5nReBnYBqFqYN0VBsry/MKPLRuKuqc5+Dw=="/>
+        </item>
+        <item>
             <title>2.12.0</title>
             <pubDate>Fri, 06 Nov 2026 13:01:10 +0200</pubDate>
             <sparkle:version>81</sparkle:version>
@@ -31,22 +46,6 @@
 - The screen's name at the right of the toolbar now lines up with the page's right edge.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.3.dmg" length="25425460" type="application/octet-stream" sparkle:edSignature="YSABDRGcd4Ozwno5NDLpJ+8D1jD0Jphw5dHPTsjZ1OmzlSgwNkgyPMKG5T0CeYOVU+NZhWwzMoQ/vcAG2KUPCQ=="/>
-        </item>
-        <item>
-            <title>2.11.2</title>
-            <pubDate>Tue, 03 Nov 2026 09:44:33 +0200</pubDate>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Record, Settings and search now sit together at the left of the toolbar and stay there however wide the window is. Record is the first button on every screen, so it never moves when you go to another screen.
-- In a narrow window Record is a round red dot, like the Settings button beside it.
-- While recording, the red Stop button stands on its own instead of sharing a frame with the button next to it.
-- The name of the screen you're on (Dashboard, Settings, Action items, Ask across calls) now sits at the right end of the toolbar. A call's title stays next to the Back button.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.2.dmg" length="25260749" type="application/octet-stream" sparkle:edSignature="pjEbs1YulnTmIWG6/Yyn1smaLggwcPMKeAVxXxRBF2aeVrdBDhw+NtjJH7L42WNAVz4i/EoMlBGIXjGD1xQJAA=="/>
         </item>
     </channel>
 </rss>
