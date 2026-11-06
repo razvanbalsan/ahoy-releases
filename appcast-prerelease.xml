@@ -3,6 +3,21 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.12.0</title>
+            <pubDate>Fri, 06 Nov 2026 13:01:10 +0200</pubDate>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Delete an action item by swiping left on it with two fingers, or by clicking and dragging it to the left, then clicking Delete. It goes at once, and a banner offers Undo for 10 seconds (it waits while you point at it). Undo brings the item back where it was, with its due date, Urgent, Mine and reminder.
+- Right-click → Delete on an action item works the same way, with no question first. The new Copy Text in that menu copies the item's words, since dragging across a row now opens its Delete button instead of selecting text.
+- On the Dashboard, clicking and dragging a call card to the left shows Move to Trash, as a two-finger swipe already did. A drag never opens the call or presses a button it started on.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.12.0.dmg" length="25477151" type="application/octet-stream" sparkle:edSignature="xB7UwwmsojmC72sdYdQ9urHqQU+0TCEFDKoGAXZ2jS1mSu3Atvh2tXFVcnjl/XMu3e/OAy3eUovUaGhBZAKADA=="/>
+        </item>
+        <item>
             <title>2.11.3</title>
             <pubDate>Wed, 04 Nov 2026 15:08:12 +0200</pubDate>
             <sparkle:version>80</sparkle:version>
@@ -32,21 +47,6 @@
 - The name of the screen you're on (Dashboard, Settings, Action items, Ask across calls) now sits at the right end of the toolbar. A call's title stays next to the Back button.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.2.dmg" length="25260749" type="application/octet-stream" sparkle:edSignature="pjEbs1YulnTmIWG6/Yyn1smaLggwcPMKeAVxXxRBF2aeVrdBDhw+NtjJH7L42WNAVz4i/EoMlBGIXjGD1xQJAA=="/>
-        </item>
-        <item>
-            <title>2.11.1</title>
-            <pubDate>Mon, 02 Nov 2026 15:31:34 +0200</pubDate>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Calls are named after their calendar meeting again when the meeting reached Calendar without its Teams join link. Since Oct 30 such calls kept the app's name ("Microsoft Teams"). Calls from the last two weeks that missed their meeting's name get it when Ahoy next starts.
-- A recording that started before its meeting reached your calendar is named when you stop it, or as soon as the meeting shows up.
-- Record now sits in the middle of the toolbar on every screen, as a red dot with "Record" (just the dot in a narrow window). While recording it becomes the red timer with Stop, at the same size, so nothing else in the toolbar moves.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.11.1.dmg" length="25382315" type="application/octet-stream" sparkle:edSignature="+bwFRqowlbLJQNbED5O4EGstyIKhe+tfHSFeF+2bF/+zKg7W0S9ZY/1CVMRXVwQTBcTfZsh36UrAGKoRLmPkAw=="/>
         </item>
     </channel>
 </rss>
