@@ -3,6 +3,19 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.13.2</title>
+            <pubDate>Fri, 06 Nov 2026 21:22:14 +0200</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>2.13.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Pressing Space on an action item's Edit button from the keyboard now puts the cursor in the editor, so you can type straight away. Before, focus moved on to Send to Reminders.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.13.2.dmg" length="25527366" type="application/octet-stream" sparkle:edSignature="GYhB3bO0roUoCgXzuF9ODbTQg4oUV5ZhrMGD+tdN2PnOX4YHY6DU2zL5cv9Q9De+fyutIXXYSfK2NgdlB2RcBg=="/>
+        </item>
+        <item>
             <title>2.13.1</title>
             <pubDate>Fri, 06 Nov 2026 20:31:27 +0200</pubDate>
             <sparkle:version>83</sparkle:version>
@@ -29,21 +42,6 @@
 - Scrolling Action items with the pointer over the window is smooth again; with many calls it could stall for up to a few seconds.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.13.0.dmg" length="25523872" type="application/octet-stream" sparkle:edSignature="1pu6S8BuaKyJC7z+epigDoxCIcG2psFT1K4h8716r3OLtgypI5mz5nReBnYBqFqYN0VBsry/MKPLRuKuqc5+Dw=="/>
-        </item>
-        <item>
-            <title>2.12.0</title>
-            <pubDate>Fri, 06 Nov 2026 13:01:10 +0200</pubDate>
-            <sparkle:version>81</sparkle:version>
-            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- Delete an action item by swiping left on it with two fingers, or by clicking and dragging it to the left, then clicking Delete. It goes at once, and a banner offers Undo for 10 seconds (it waits while you point at it). Undo brings the item back where it was, with its due date, Urgent, Mine and reminder.
-- Right-click → Delete on an action item works the same way, with no question first. The new Copy Text in that menu copies the item's words, since dragging across a row now opens its Delete button instead of selecting text.
-- On the Dashboard, clicking and dragging a call card to the left shows Move to Trash, as a two-finger swipe already did. A drag never opens the call or presses a button it started on.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/prerelease/Ahoy-2.12.0.dmg" length="25477151" type="application/octet-stream" sparkle:edSignature="xB7UwwmsojmC72sdYdQ9urHqQU+0TCEFDKoGAXZ2jS1mSu3Atvh2tXFVcnjl/XMu3e/OAy3eUovUaGhBZAKADA=="/>
         </item>
     </channel>
 </rss>
