@@ -3,6 +3,25 @@
     <channel>
         <title>Ahoy</title>
         <item>
+            <title>2.15.0</title>
+            <pubDate>Thu, 26 Nov 2026 11:27:38 +0200</pubDate>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Changes
+
+- Whisper now runs on whisper.cpp with Metal, faster and lighter. After updating, download Whisper again in Settings → Local models (you'll get one notice). Pick a build: Full (1.6 GB), Balanced (870 MB) or Small (550 MB); the one for your Mac is preselected.
+- Whisper can now caption calls live, in English and Romanian, one line per phrase. It needs the small Voice detection model, which downloads with Whisper.
+- Settings → Transcription → Language is now a picker: Autodetect (English or Romanian), English, Romanian, English + Romanian, or Other.
+- Autodetect now means English or Romanian everywhere. Whistle has no Romanian, so it no longer takes Autodetect calls, and a call that keeps no audio won't start on Whistle.
+- When live captions can't run, the warning offers one fix: Use Whisper, Use Parakeet or Download Whisper. "Don't keep call audio" now names the engine that writes the transcript.
+- The Transcription engine and Live captions pickers list every online service, marked "needs API key" until its key is saved.
+- New in Settings → Local models: Download Again, to delete a model and download a fresh copy.
+]]></description>
+            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.15.0.dmg" length="26147044" type="application/octet-stream" sparkle:edSignature="kWZ5pJxuz9FwuROWIvj8PkTGYByOpOqIGriGC5121vYVjaVT9hl5Vy5bnP1D5vWBRWKu3w0GmJThIoN7hY20CA=="/>
+        </item>
+        <item>
             <title>2.14.0</title>
             <pubDate>Wed, 25 Nov 2026 16:38:01 +0200</pubDate>
             <sparkle:version>85</sparkle:version>
@@ -29,19 +48,6 @@
 - Pressing Space on an action item's Edit button from the keyboard now puts the cursor in the editor, so you can type straight away. Before, focus moved on to Send to Reminders.
 ]]></description>
             <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.13.2.dmg" length="25527366" type="application/octet-stream" sparkle:edSignature="GYhB3bO0roUoCgXzuF9ODbTQg4oUV5ZhrMGD+tdN2PnOX4YHY6DU2zL5cv9Q9De+fyutIXXYSfK2NgdlB2RcBg=="/>
-        </item>
-        <item>
-            <title>2.13.1</title>
-            <pubDate>Fri, 06 Nov 2026 20:31:52 +0200</pubDate>
-            <sparkle:version>83</sparkle:version>
-            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Changes
-
-- With keyboard navigation on, Tab no longer stops on an action item's hidden Edit and Send to Reminders buttons. They now appear while either has focus, so you can reach and press them from the keyboard.
-]]></description>
-            <enclosure url="https://github.com/razvanbalsan/ahoy-releases/releases/download/downloads/Ahoy-2.13.1.dmg" length="25524240" type="application/octet-stream" sparkle:edSignature="p3H2V8I/HqGBn2TWu/jR6h+vGgntNv7VxGb2KqrDcPZJzC0xFlr0+PRT24F9LUaOch7UhhMb4ngIAAH/sRkVCA=="/>
         </item>
     </channel>
 </rss>
